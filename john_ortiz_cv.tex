@@ -1,0 +1,259 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+%\documentclass[11pt, a4paper]{article}
+\documentclass[11pt, letterpaper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+%\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\geometry{letterpaper, textwidth=5.5in, textheight=9.0in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common},Numbers={OldStyle}]{Adobe Caslon Pro}
+\setmonofont[Scale=0.8]{Monaco} 
+\setsansfont[Scale=0.9]{Optima Regular} 
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+\usepackage[misc]{ifsym} %adds email symbol ('\Letter')
+\usepackage{marvosym}  %adds cell phone symbol ('\Mobilefone')
+\usepackage{changepage} %allows left/right indentation of body text
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\Large} 
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={john_ortiz_cv},pdfauthor={John P. Ortiz}]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
+
+% define a double line separator
+\def\doubleline{
+
+	\vspace{-1.4em}
+	\hspace{\fill}\linethickness{0.7pt}\line(1,0){5.5in}\hspace{\fill}
+	
+	\vspace{-1.0em}
+	\hspace{\fill}\linethickness{0.7pt}\line(1,0){5.5in}\hspace{\fill}
+	
+}
+
+%-----------------------------------------------------------------------------------
+
+% DOCUMENT
+\begin{document}
+{\LARGE John P. Ortiz} %\\[1cm]
+%{\Huge John P. Ortiz} %\\[1cm]
+%\vfill
+
+%% centered info with double line underneath
+%\begin{center}
+%	{\LARGE John P. Ortiz} \\[0.5cm]
+%	799 6th St. \#14, Los Alamos, NM 87544 •\ (541) 207-5846 •\ john.p.ortiz.14@gmail.com
+%\end{center}
+%\doubleline
+
+
+
+\begin{center}
+	\begin{tabular}{l l}
+		Post-Master's Researcher    & \hspace{.5in}\href{www.lanl.gov/EES-16}{www.lanl.gov/EES-16} \\
+		Los Alamos National Laboratory   & \hspace{.5in}\href{www.johnportiz.weebly.com}{www.johnportiz.weebly.com}   \\
+		Computational Earth Science Group (EES-16)       & \hspace{.5in}\Letter {     } \href{mailto:john.p.ortiz.14@gmail.com}{john.p.ortiz.14@gmail.com}    \\ 
+		799 6th St.\#14  Los Alamos, NM 87544 & \hspace{.5in}\Mobilefone { } +1 (541) 207-5846  \\
+		
+	\end{tabular}
+\end{center}
+
+%%\hrule
+%\section*{Current position}
+%\emph{Emeritus Professor}, Institute for Advanced Study, Princeton
+
+%-----------------------AREAS OF SPECIALIZATION-----------------------
+%%\hrule
+\section*{Areas of Specialization}
+% 	numerical modeling, hydrogeology, gas flow in fractured media, petroleum geofluids
+	numerical modeling •\ hydrogeology •\ gas flow in fractured media •\ petroleum geofluids
+	
+
+%--------------------------EDUCATION-------------------------
+\section*{Education}
+\noindent
+
+\years{2017}\textsc{New Mexico Institute of Mining and Technology (NMT)}
+\begin{adjustwidth}{5pt}{0pt}
+	\textsc{M.Sc.} in Hydrology, \textsc{    GPA:} 3.89/4.00\\
+	\textsc{Thesis:} The role of fault-zone architectural elements and basal altered zones on downward pore pressure propagation and induced seismicity in the crystalline basement
+\end{adjustwidth}
+
+\years{2014}\textsc{Dartmouth College}
+\begin{adjustwidth}{5pt}{0pt}
+	\textsc{B.A.} in Earth Sciences\\
+	\textsc{Honor's Thesis:} Quantifying regional sediment flux from observations of nearshore morphology in the Columbia River Littoral Cell 
+\end{adjustwidth}
+
+
+%\years{2017}\textsc{M.Sc.} in Hydrology, New Mexico Institute of Mining and Technology (NMT)
+%\begin{adjustwidth}{5pt}{0pt}
+%
+%	\textsc{Thesis:} The Role of Fault-Zone Architectural Elements and Basal Altered Zones on Downward Pore Pressure Propagation and Induced Seismicity in the Crystalline Basement
+%%	\begin{tabular}{@{}l l}
+%%	\textsc{Advisor:} Dr. Mark Person & \hspace{1cm} \textsc{GPA:} 3.89/4.00 
+%	 \textsc{GPA:} 3.89/4.00
+%%\end{tabular}\\
+%\end{adjustwidth}
+%
+%
+%\years{2014}\textsc{B.A.} in Earth Sciences, Dartmouth College\
+%\begin{adjustwidth}{5pt}{0pt}
+%	\textsc{Honor's Thesis:} Quantifying regional sediment flux from observations of nearshore morphology in the Columbia River Littoral Cell 
+%\end{adjustwidth}
+
+%--------------------------HONORS------------------------------
+%\hrule
+%\section*{Grants, honors \amper{} awards}
+\section*{Honors \amper{} Awards}
+\noindent
+\years{2018}“Spot" Performance Award (May), Los Alamos National Laboratory
+
+%-----------------------RESEARCH EXPERIENCE---------------------------
+\section*{Research Experience}
+\noindent
+%\years{2017 - present}\textit{Post-Master's Researcher}\\
+\years{2017 - present}\textsc{Post-Master's Researcher}\\
+\textit{Computational Earth Science Group, Los Alamos National Laboratory}
+\begin{adjustwidth}{5pt}{0pt}
+	Developing numerical approaches for detecting clandestine underground nuclear explosion (UNE) tests. Ongoing projects include simulating radionuclide gas transport in fractured geologic media using multiple finite-element method (FEM) and control volume finite-element (CVFEM) numerical models, determining field-scale transport properties of rocks using models and tracer experiments, and developing a reduced-order model (ROM) for rapid prediction of gas seepage times.\\
+	Also developing the Amanzi high performance computing (HPC) flow \& transport simulator to meet the Nuclear Quality Assurance-1 (NQA-1) regulatory standard by improving code verification and benchmark tests. Collaborating on a multi-lab program supported by the DOE Office of Environmental Management (DOE EM) to provide scientifically defensible and standardized assessments of the uncertainties and risks associated with the environmental cleanup and closure of waste sites.\\
+\end{adjustwidth}
+
+\years{2016 - 2017}\textsc{Graduate Research Assistant}\\
+\textit{Earth and Environmental Sciences Department, NMT}
+\begin{adjustwidth}{5pt}{0pt}
+	Created transient 3D finite-difference (FDM) models in MODFLOW to analyze fluid-fault interactions as pertaining to a suite of basal reservoir injection scenarios. I also developed transient 2D cross-sectional FDM models in MATLAB to test fluid-fault interactions for crystalline basement fault zones exhibiting local, dynamically enhanced permeability caused by excess fluid pressures. In my work, I developed new approaches for representing fault zones with multiple architectural components and identified several key hydrogeologic parameters that control deep propagation of the fluid pressure envelope and thus present increased risk of induced seismic events.\\
+	Collaborated on an NSF-funded (via NM EPSCoR) project deploying subsurface field survey equipment (transverse electromagnetics [TEM], magnetotellurics [MT]) for interpretation of deep saline geothermal flow regimes in order to evaluate potential hydrothermal systems in southern New Mexico.
+\end{adjustwidth}
+
+\years{2013}\textsc{Research Intern}\\
+\textit{College of Earth, Ocean, and Atmospheric Sciences, Oregon State University}
+\begin{adjustwidth}{5pt}{0pt}
+	Completed an NSF-funded Research Experience for Undergraduates (REU) internship on coastal processes by collecting nearshore topographic and bathymetric data and extracting, interpolating, and visualizing nearshore bathymetry in order to extract key spatial and temporal metrics using MATLAB. Determined rates of longshore-uniform sandbar migration cycles along the Oregon and Washington coasts representing a huge component of seasonal coastal sediment flux.
+\end{adjustwidth}
+
+\years{2013}\textsc{Research Intern}\\
+\textit{United States Army Corps of Engineers Field Research Facility, Duck NC}
+\begin{adjustwidth}{5pt}{0pt}
+	Studied coastal evolution and erosion by collecting and processing LiDAR observations during and after storm surges.\\
+	Created a paleo-hurricane record of St. Croix using grain-size analysis and on sediment cores combined with charcoal carbon dating.
+\end{adjustwidth}
+
+%-----------------------TEACHING EXPERIENCE---------------------------
+\section*{Teaching Experience}
+\noindent
+\years{2015 - 2016}\textsc{Graduate Teaching Assistant}\\
+\textit{Earth and Environmental Sciences Department, NMT}
+\begin{adjustwidth}{5pt}{0pt}
+	Developed lesson plans and led class lectures and field trips for 20+ students in intermediate and upper level undergraduate Earth Sciences lab sections. Taught lab sections for courses in Geomorphology and Stratigraphy \& Paleontology with work load totaling 20 hrs/week.  
+\end{adjustwidth}
+
+%--------------------------SKILLS-------------------------------
+\section*{Skills}
+\subsection*{Programming/command languages}
+\noindent
+\textsc{Python} – Highly proficient. Primarily used to design and execute sensitivity analyses of FEHM and PFLOTRAN numerical models, and to generate nodal grids for finite-element meshes. Also developed standalone software applications for real-time predictions of gas breakthrough for use on both Windows and Unix platforms.\\[5pt]
+\textsc{Matlab} – Highly proficient at writing scripts for data processing/manipulation and developing a variety of iterative/numerical models to solve hydrogeologic environmental problems.\\[5pt]
+\textsc{R} – Moderately proficient at building a variety of statistical models to interpret and synthesize climatic, hydrologic, geochemical, and environmental data. Collaborated on statewide New Mexico water budget research project predicting reference evapotranspiration using different statistical models on a wide range remote sensing parameters.\\[5pt]
+\textsc{Bash/shell}
+\subsection*{Software, codes}
+\noindent
+\textsc{Fehm} – High proficiency at creating multi-phase fluid flow simulations with mass transport. Created test suites comparing vapor tracer transport within a fracture with matrix diffusion to an analytical solution governed by a modified Richard’s equation for unsaturated flow (with immobile liquid phase) in order to test when multi-phase flow significantly affects gas tracer transport.\\[5pt]
+\textsc{Pflotran} – Intermediate proficiency at creating multi-phase fluid flow simulations with mass transport. Created test suites in similar capacity to work done with FEHM. Also used in conjunction with FEHM to verify the capabilities of discrete fracture networks (DFNs) to simulate flow/transport in fractured media under transient conditions.\\[5pt]
+\textsc{Modflow} – High proficiency. Developed multiple 3D transient and steady-state FDM models to solve a variety of hydrogeologic problems including fluid-fault interactions as related to induced seismicity in thesis work, and basin-scale backwards modeling of groundwater solute transport as related to the Kirtland Air Force Base spill in Albuquerque, NM.\\[5pt]
+\textsc{Git} – Experience in source code management/version control in application development and collaborating with colleagues on coding projects.\\[5pt]
+\textsc{Petromod} – Experience creating basin evolution, subsidence rate, and heat flow models of several American petroleum-bearing locales.\\[5pt]
+\textsc{ArcGIS} – Experience using digital elevation models (DEM) to delineate watersheds and create estimates of stream discharge in mountainous terrain. Taught two classes of 20+ undergraduates similar techniques while TAing a geomorphology course.\\[5pt] 
+\textsc{Adobe Illustrator} – Experienced in creating and editing publication-ready figures and illustrative schematic diagrams.\\[5pt] 
+\textsc{COMSOL Multiphysics} – Beginner proficiency modeling contaminant transport in academic coursework.\\[5pt] 
+\textsc{Microsoft Excel} – Ranked \#7 in the world at Microsoft Office Worldwide Competition 2008 in Hawaii of 56,000 initial entrants (www.betheworldchamp.com), Ireland National Champion of 436 entrants).
+\subsection*{Other}
+\noindent
+Advanced proficiency in written and conversational Spanish (nine years of academic study).
+
+
+%--------------------------PUBLICATIONS--------------------------
+\section*{Publications \amper{} presentations}
+%\subsection*{Journal articles \amper{} Reports}
+\subsection*{Journal articles \& Reports}
+\noindent
+\years{2018}\textbf{Ortiz, J. P.}, Person, M. A., Mozley, P. S., Evans, J. P., Bilek, S. L. The role of fault-zone architectural elements on pore pressure propagation and induced seismicity. \emph{Groundwater}. Accepted Author Manuscript.\\
+\years{2018}Harp, D. R., \textbf{Ortiz, J. P.}, Pandey, S., Karra, S., Anderson, D., Bradley, C., Viswanathan, H., \& Stauffer, P. H. Immobile Pore-Water Storage Enhancement and Retardation of Gas Transport in Fractured Rock. \emph{Transport in Porous Media}, 1-26.\\
+\years{2018}Stauffer, P.H., Rahn, T.A., \textbf{Ortiz, J. P.}, Salazar, L.J., Boukhalfa, H., \& Snyder, E.E.. Summary of a Gas Transport Tracer Test in the Deep Cerros Del Rio Basalts, Mesita del Buey, Los Alamos NM. United States. doi:10.2172/1417180.\\
+\years{2016}Zhang, Y., Edel, S. S., Pepin, J., Person, M., Broadhead, R., \textbf{Ortiz, J. P.}, Bilek, S. L., Mozley, P. S., \& Evans, J. P. (2016). Exploring the potential linkages between oil‐field brine reinjection, crystalline basement permeability, and triggered seismicity for the Dagger Draw Oil field, southeastern New Mexico, USA, using hydrologic modeling. \emph{Geofluids}.\\ 
+\years{2014}\textbf{Ortiz, J. P.} (2014). Quantifying regional sediment flux from observations of nearshore morphology in the Columbia River Littoral Cell. \emph{Dartmouth College Senior Honor's Thesis Collection.}\\
+\years{2014}Cohn, N., Ruggiero, P., \textbf{Ortiz, J. P.}, \& Walstra, D. J. (2014). Investigating the role of complex sandbar morphology on nearshore hydrodynamics. \emph{Journal of Coastal Research}, 70(sp1), 53-58.
+
+%\subsection*{Conference Talks \amper{} Posters}
+\subsection*{Conference Talks \& Posters}\noindent
+\years{2018}\textbf{Ortiz, J. P.} A reduced-order model to assist real-time predictions of gas transport in unsaturated fractured media, oral presentation. InterPore 10th Annual Meeting in New Orleans (May 2018).\\
+\years{2018}\textbf{Ortiz, J. P.} Analysis of enhanced gas transport in fractured rock due to barometric pressure variations, (presenting for Dr. Dylan Harp) oral presentation. InterPore 10th Annual Meeting in New Orleans (May 2018).\\
+\years{2017}\textbf{Ortiz, J. P.} Improving estimates of subsurface gas transport in unsaturated fractured media using field tracer data and numerical methods, oral presentation. AGU 2017 Fall Meeting in New Orleans.\\
+\years{2016}\textbf{Ortiz, J. P.} “The Hydrologic Connection Between Basal Reservoir Injection, Crystalline Basement Fault Zones, and Induced Seismicity”, oral presentation. September 2016 GSA Annual Meeting in Denver, CO.\\
+\years{2013}\textbf{Ortiz, J. P.}, Interannual Sandbar Variability within the Columbia River Littoral Cell, poster presentation at the 2013 AGU Fall Conference, San Francisco, CA.\\  
+
+
+%\subsection*{Newspaper articles}
+%\noindent
+%\years{1940}Einstein, Albert, et al. (December 4, 1948), “To the editors", \emph{New York Times}\\
+%\years{1949}Einstein, Albert (May 1949), “Why Socialism?", \emph{Monthly Review}.
+%
+
+%--------------------------PROFESSIONAL AFFILIATIONS--------------------------
+\section*{Professional Affiliations}
+\years{2013 - present} \textsc{American Geophysical Union (AGU)}\\
+\years{2015 - present} \textsc{American Association of Petroleum Geologists (AAPG)}\\
+\years{2016 - present} \textsc{Geological Society of America (GSA)}\\
+\years{2017 - present} \textsc{National Ground Water Association (NGWA)}\\
+\years{2018 - present} \textsc{International Society for Porous Media (InterPore)}\\
+
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Last updated: \today\- •\- Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+\fontspec{Times New Roman}\XeTeX }}
+\end{center}
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+%\href{http://nitens.org/taraborelli/cvtex}{http://nitens.org/taraborelli/cvtex}}
+%\end{center}
+
+\end{document}
