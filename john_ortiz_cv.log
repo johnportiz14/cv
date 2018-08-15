@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  15 AUG 2018 16:51
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  15 AUG 2018 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -958,11 +958,6 @@ Overfull \hbox (1.81091pt too wide) in paragraph at lines 151--151
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 151.
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
-
- []
-
 Package marginnote Info: Margin note 1.5 is on absolute page 1
 (marginnote)              on input line 158.
 Package marginnote Info: right page because not two side mode on input line 158
@@ -991,7 +986,7 @@ Package marginnote Info: right page because not two side mode on input line 181
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 181.
  [2]
-Package marginnote Info: Margin note 3.1 is on absolute page 4
+Package marginnote Info: Margin note 3.1 is on absolute page 3
 (marginnote)              on input line 217.
 Package marginnote Info: right page because not two side mode on input line 217
 .
@@ -1058,11 +1053,6 @@ Package marginnote Info: right page because not two side mode on input line 230
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 230.
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--231
-
- []
-
 Package marginnote Info: Margin note 4.6 is on absolute page 4
 (marginnote)              on input line 241.
 Package marginnote Info: right page because not two side mode on input line 241
@@ -1107,7 +1097,7 @@ Overfull \hbox (1.81091pt too wide) in paragraph at lines 244--244
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 244.
-Package marginnote Info: Margin note 4.10 is on absolute page 5
+Package marginnote Info: Margin note 4.10 is on absolute page 4
 (marginnote)              on input line 245.
 Package marginnote Info: right page because not two side mode on input line 245
 .
@@ -1148,10 +1138,6 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
  (./john_ortiz_cv.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 260.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 260.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
  ) 
 Here is how much of TeX's memory you used:
