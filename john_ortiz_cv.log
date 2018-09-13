@@ -1,6 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  15 AUG 2018 16:57
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  11 SEP 2018 13:44
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **john_ortiz_cv.tex
 (./john_ortiz_cv.tex
@@ -552,7 +553,8 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 
 
-! LaTeX Error: Command \Letter already defined.
+/usr/local/texlive/2016/texmf-dist/tex/latex/marvosym/marvosym.sty:44: LaTeX Er
+ror: Command \Letter already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -561,10 +563,7 @@ Type  H <return>  for immediate help.
                                                   
 l.44 \newcommand\Letter{\mvchr{66}}
                                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count132
