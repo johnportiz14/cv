@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  11 SEP 2018 13:44
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  9 OCT 2018 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1026,7 +1026,7 @@ Package marginnote Info: Margin note 4.1 is on absolute page 4
 (marginnote)              on input line 226.
 Package marginnote Info: right page because not two side mode on input line 226
 .
-Package marginnote Info: xpos seems to be 108.405pt,
+Package marginnote Info: xpos seems to be 113.67314pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 226.
 Package marginnote Info: Margin note 4.2 is on absolute page 4
 (marginnote)              on input line 227.
@@ -1108,10 +1108,11 @@ Overfull \hbox (1.81091pt too wide) in paragraph at lines 245--245
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 245.
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--246
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
+[4]
 \g__fontspec_family_TimesNewRoman_int=\count148
 .................................................
 . fontspec info: "defining-font"
@@ -1131,13 +1132,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--246
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+ [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (./john_ortiz_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 260.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 260.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 260.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 268.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
  21862 strings out of 493591
@@ -1148,4 +1153,4 @@ Here is how much of TeX's memory you used:
  1347 hyphenation exceptions out of 8191
  48i,9n,74p,10353b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on john_ortiz_cv.pdf (4 pages).
+Output written on john_ortiz_cv.pdf (5 pages).
