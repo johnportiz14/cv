@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  6 NOV 2018 17:06
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  7 NOV 2018 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1198,6 +1198,8 @@ Overfull \hbox (1.81091pt too wide) in paragraph at lines 258--258
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 258.
+Package marginnote Info: Margin note 5.5 is on absolute page 5
+(marginnote)              on input line 259.
 Package marginnote Info: right page because not two side mode on input line 259
 .
 
@@ -1205,8 +1207,8 @@ Overfull \hbox (1.81091pt too wide) in paragraph at lines 259--259
 []| \TU/AdobeCaslonPro(0)/m/n/8 2018 - present 
  []
 
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 259.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 259.
 
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
@@ -1242,16 +1244,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 282.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `john_ortiz_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
  22516 strings out of 492970
  418079 string characters out of 6133938
- 496903 words of memory out of 5000000
+ 496919 words of memory out of 5000000
  26343 multiletter control sequences out of 15000+600000
  534397 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
