@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  5 MAR 2019 10:33
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  18 MAR 2019 11:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1124,11 +1124,11 @@ Package marginnote Info: right page because not two side mode on input line 236
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 236.
 Package marginnote Info: Margin note 4.7 is on absolute page 4
-(marginnote)              on input line 240.
-Package marginnote Info: right page because not two side mode on input line 240
+(marginnote)              on input line 237.
+Package marginnote Info: right page because not two side mode on input line 237
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 240.
+(marginnote)             \marginnoteleftadjust ignored on input line 237.
 Package marginnote Info: Margin note 4.8 is on absolute page 4
 (marginnote)              on input line 241.
 Package marginnote Info: right page because not two side mode on input line 241
@@ -1165,52 +1165,45 @@ Package marginnote Info: right page because not two side mode on input line 246
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 246.
+Package marginnote Info: right page because not two side mode on input line 247
+.
+Package marginnote Info: xpos not known,
+(marginnote)             using \marginnoteleftadjust on input line 247.
  [4]
 Package marginnote Info: Margin note 5.1 is on absolute page 5
-(marginnote)              on input line 257.
-Package marginnote Info: right page because not two side mode on input line 257
-.
-
-Overfull \hbox (1.81091pt too wide) in paragraph at lines 257--257
-| \TU/AdobeCaslonPro(0)/m/n/8 2013 - present 
- []
-
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 257.
-Package marginnote Info: Margin note 5.2 is on absolute page 5
 (marginnote)              on input line 258.
 Package marginnote Info: right page because not two side mode on input line 258
 .
 
 Overfull \hbox (1.81091pt too wide) in paragraph at lines 258--258
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2015 - present 
+| \TU/AdobeCaslonPro(0)/m/n/8 2013 - present 
  []
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 258.
-Package marginnote Info: Margin note 5.3 is on absolute page 5
+Package marginnote Info: Margin note 5.2 is on absolute page 5
 (marginnote)              on input line 259.
 Package marginnote Info: right page because not two side mode on input line 259
 .
 
 Overfull \hbox (1.81091pt too wide) in paragraph at lines 259--259
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2016 - present 
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2015 - present 
  []
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 259.
-Package marginnote Info: Margin note 5.4 is on absolute page 5
+Package marginnote Info: Margin note 5.3 is on absolute page 5
 (marginnote)              on input line 260.
 Package marginnote Info: right page because not two side mode on input line 260
 .
 
 Overfull \hbox (1.81091pt too wide) in paragraph at lines 260--260
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2017 - present 
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2016 - present 
  []
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 260.
-Package marginnote Info: Margin note 5.5 is on absolute page 5
+Package marginnote Info: Margin note 5.4 is on absolute page 5
 (marginnote)              on input line 261.
 Package marginnote Info: right page because not two side mode on input line 261
 .
@@ -1221,19 +1214,30 @@ Overfull \hbox (1.81091pt too wide) in paragraph at lines 261--261
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 261.
-Package marginnote Info: Margin note 5.6 is on absolute page 5
+Package marginnote Info: Margin note 5.5 is on absolute page 5
 (marginnote)              on input line 262.
 Package marginnote Info: right page because not two side mode on input line 262
 .
 
 Overfull \hbox (1.81091pt too wide) in paragraph at lines 262--262
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2018 - present 
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2017 - present 
  []
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 262.
+Package marginnote Info: Margin note 5.6 is on absolute page 5
+(marginnote)              on input line 263.
+Package marginnote Info: right page because not two side mode on input line 263
+.
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Overfull \hbox (1.81091pt too wide) in paragraph at lines 263--263
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2018 - present 
+ []
+
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 263.
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
@@ -1259,21 +1263,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--271
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
 [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
  (./john_ortiz_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 285.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 286.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
 Package rerunfilecheck Info: File `john_ortiz_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 285.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 286.
  ) 
 Here is how much of TeX's memory you used:
- 22518 strings out of 492970
- 418102 string characters out of 6133938
- 498951 words of memory out of 5000000
- 26345 multiletter control sequences out of 15000+600000
+ 22519 strings out of 492970
+ 418114 string characters out of 6133938
+ 499951 words of memory out of 5000000
+ 26346 multiletter control sequences out of 15000+600000
  534397 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  42i,9n,83p,10396b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
