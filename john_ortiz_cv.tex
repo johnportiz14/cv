@@ -69,6 +69,11 @@
 	
 }
 
+% CENSORING PRIVATE INFO
+% use \censor{} to black out pieces of text
+% use \StopCensoring to turn off all instances of censoring
+\usepackage{censor}
+
 %-----------------------------------------------------------------------------------
 
 % DOCUMENT
@@ -84,14 +89,13 @@
 %\end{center}
 %\doubleline
 
-
-
+%\StopCensoring     %<------------------ UNCOMMENT TO TURN OFF CENSORING
 \begin{center}
 	\begin{tabular}{l l}
 		Post-Master's Researcher    & \hspace{.5in}\href{www.lanl.gov/EES-16}{www.lanl.gov/EES-16} \\
 		Los Alamos National Laboratory   & \hspace{.5in}\href{http://johnportiz.weebly.com/}{www.johnportiz.weebly.com}   \\
 		Computational Earth Science Group (EES-16)       & \hspace{.5in}\Letter {     } \href{mailto:john.p.ortiz.14@gmail.com}{john.p.ortiz.14@gmail.com}    \\ 
-		5015 Carriage House,   Los Alamos, NM 87544 & \hspace{.5in}\Mobilefone { } +1 (541) 207-5846  \\
+		\censor{5015 Carriage House,   Los Alamos, NM 87544} & \hspace{.5in}\Mobilefone { } \censor{+1 (541) 207-5846}  \\
 		
 	\end{tabular}
 \end{center}
@@ -161,8 +165,8 @@
 \years{2017 - present}\textsc{Post-Master's Researcher}\\
 \textit{Computational Earth Science Group, Los Alamos National Laboratory}
 \begin{adjustwidth}{5pt}{0pt}
-	Developing numerical approaches for detecting clandestine underground nuclear explosion (UNE) tests. Ongoing projects include simulating radionuclide gas transport in fractured geologic media using multiple finite-element method (FEM) and control volume finite-element (CVFEM) numerical models, determining field-scale transport properties of rocks using models and tracer experiments, and developing a reduced-order model (ROM) for rapid prediction of gas seepage times.\\
-	Also developing the Amanzi high performance computing (HPC) flow \& transport simulator to meet the Nuclear Quality Assurance-1 (NQA-1) regulatory standard by improving code verification and benchmark tests. Collaborating on a multi-lab program supported by the DOE Office of Environmental Management (DOE EM) to provide scientifically defensible and standardized assessments of the uncertainties and risks associated with the environmental cleanup and closure of waste sites.
+	Developing numerical approaches for detecting clandestine underground nuclear explosion (UNE) tests. Ongoing projects include simulating radionuclide gas transport in fractured geologic media using multiple finite-element method (FEM) and control volume finite-element (CVFEM) numerical models, determining laboratory- and field-scale transport properties of rocks using models and tracer experiments, and developing a reduced-order model (ROM) for rapid prediction of gas seepage times.\\
+	Developed the Amanzi high performance computing (HPC) flow \& transport simulator to meet the Nuclear Quality Assurance-1 (NQA-1) regulatory standard by improving code verification and benchmark tests. Collaborated on a multi-lab program supported by the DOE Office of Environmental Management (DOE EM) to provide scientifically defensible and standardized assessments of the uncertainties and risks associated with the environmental cleanup and closure of waste sites.
 \end{adjustwidth}
 
 \years{2016 - 2017}\textsc{Graduate Research Assistant}\\

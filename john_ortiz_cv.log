@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  7 MAY 2019 10:35
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  7 MAY 2019 11:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -808,34 +808,57 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/censor/censor.sty
+Package: censor 2013/06/24 3.21Provides capability for redaction of sensitive i
+nformation
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\pb@xlen=\skip54
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ifnextok/ifnextok.sty
+Package: ifnextok 2011/06/27 v0.3 test next token (UL)
+)
+\censorruledepth=\skip55
+\censorruleheight=\skip56
+\periodrlap=\skip57
+\afterperiodlap=\skip58
+\lletterlap=\skip59
+\rletterlap=\skip60
+\afterspacelap=\skip61
+)
 (./john_ortiz_cv.aux)
 \openout1 = `john_ortiz_cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 75.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 80.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 80.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -843,66 +866,66 @@ LaTeX Font Info:    ... okay on input line 75.
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 75.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 75.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 75.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 75.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 75.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 75.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 75.
-LaTeX Font Info:    Redeclaring math accent \check on input line 75.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 75.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 75.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 75.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 75.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 80.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 80.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 80.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 80.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 80.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 80.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 80.
+LaTeX Font Info:    Redeclaring math accent \check on input line 80.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 80.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 80.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 80.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 80.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 75.
+(Font)              `operators' in the math version `normal' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/AdobeCaslonPro(0)/m/n on input line 
-75.
+80.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 75.
+(Font)              `operators' in the math version `bold' on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/AdobeCaslonPro(0)/m/n on input line
- 75.
+ 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/AdobeCaslonPro(0)/m/n --> TU/AdobeCaslonPro(0)/m/n o
-n input line 75.
+n input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/AdobeCaslonPro(0)/m/it on input lin
-e 75.
+e 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/AdobeCaslonPro(0)/bx/n on input lin
-e 75.
+e 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/cmss/m/n --> TU/OptimaRegular(0)/m/n on input line 
-75.
+80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 75.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/m/n on input line 80.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/AdobeCaslonPro(0)/m/n --> TU/AdobeCaslonPro(0)/bx/n 
-on input line 75.
+on input line 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/AdobeCaslonPro(0)/bx/it on input l
-ine 75.
+ine 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/OptimaRegular(0)/bx/n on input lin
-e 75.
+e 80.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 75.
+(Font)                  OT1/cmtt/m/n --> TU/Monaco(0)/bx/n on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -951,7 +974,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 75.
+Package hyperref Info: Link coloring ON on input line 80.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -961,42 +984,42 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count273
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
 
 (./john_ortiz_cv.out) (./john_ortiz_cv.out)
 \@outlinefile=\write3
 \openout3 = `john_ortiz_cv.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 90.
+(Font)              <10.95> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 90.
+(Font)              <8> on input line 94.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 90.
-LaTeX Font Info:    Try loading font information for U+ifsym on input line 93.
+(Font)              <6> on input line 94.
+LaTeX Font Info:    Try loading font information for U+ifsym on input line 97.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ifsym/uifsym.fd)
-LaTeX Font Info:    Try loading font information for U+mvs on input line 94.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 98.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/marvosym/umvs.fd)
-Overfull \hbox (7.92532pt too wide) in paragraph at lines 90--97
+Overfull \hbox (7.92532pt too wide) in paragraph at lines 94--101
  [] 
  []
 
 Package marginnote Info: Margin note 1.1 is on absolute page 1
-(marginnote)              on input line 114.
-Package marginnote Info: right page because not two side mode on input line 114
+(marginnote)              on input line 118.
+Package marginnote Info: right page because not two side mode on input line 118
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 114.
+(marginnote)             \marginnoteleftadjust ignored on input line 118.
 Package marginnote Info: Margin note 1.2 is on absolute page 1
-(marginnote)              on input line 120.
-Package marginnote Info: right page because not two side mode on input line 120
+(marginnote)              on input line 124.
+Package marginnote Info: right page because not two side mode on input line 124
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 120.
+(marginnote)             \marginnoteleftadjust ignored on input line 124.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1021,229 +1044,229 @@ Package marginnote Info: xpos seems to be 108.405pt,
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `TU/AdobeCaslonPro(1)/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 146.
+(Font)              scaled to size 13.67995pt on input line 150.
 LaTeX Font Info:    Font shape `TU/AdobeCaslonPro(1)/m/it' will be
-(Font)              scaled to size 13.67995pt on input line 146.
+(Font)              scaled to size 13.67995pt on input line 150.
 Package marginnote Info: Margin note 1.3 is on absolute page 1
-(marginnote)              on input line 148.
-Package marginnote Info: right page because not two side mode on input line 148
+(marginnote)              on input line 152.
+Package marginnote Info: right page because not two side mode on input line 152
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 148.
+(marginnote)             \marginnoteleftadjust ignored on input line 152.
 Package marginnote Info: Margin note 1.4 is on absolute page 1
-(marginnote)              on input line 153.
-Package marginnote Info: right page because not two side mode on input line 153
+(marginnote)              on input line 157.
+Package marginnote Info: right page because not two side mode on input line 157
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 153.
+(marginnote)             \marginnoteleftadjust ignored on input line 157.
 Package marginnote Info: Margin note 1.5 is on absolute page 1
-(marginnote)              on input line 161.
-Package marginnote Info: right page because not two side mode on input line 161
+(marginnote)              on input line 165.
+Package marginnote Info: right page because not two side mode on input line 165
 .
 
-Overfull \hbox (1.81091pt too wide) in paragraph at lines 161--161
+Overfull \hbox (1.81091pt too wide) in paragraph at lines 165--165
 []| \TU/AdobeCaslonPro(0)/m/n/8 2017 - present 
  []
 
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 161.
+(marginnote)             \marginnoteleftadjust ignored on input line 165.
 [1
 
 ]
 Package marginnote Info: Margin note 2.1 is on absolute page 2
-(marginnote)              on input line 168.
-Package marginnote Info: right page because not two side mode on input line 168
+(marginnote)              on input line 172.
+Package marginnote Info: right page because not two side mode on input line 172
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 168.
+(marginnote)             \marginnoteleftadjust ignored on input line 172.
 Package marginnote Info: Margin note 2.2 is on absolute page 2
-(marginnote)              on input line 175.
-Package marginnote Info: right page because not two side mode on input line 175
+(marginnote)              on input line 179.
+Package marginnote Info: right page because not two side mode on input line 179
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 175.
+(marginnote)             \marginnoteleftadjust ignored on input line 179.
 Package marginnote Info: Margin note 2.3 is on absolute page 2
-(marginnote)              on input line 181.
-Package marginnote Info: right page because not two side mode on input line 181
+(marginnote)              on input line 185.
+Package marginnote Info: right page because not two side mode on input line 185
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 181.
+(marginnote)             \marginnoteleftadjust ignored on input line 185.
 Package marginnote Info: Margin note 2.4 is on absolute page 2
-(marginnote)              on input line 191.
-Package marginnote Info: right page because not two side mode on input line 191
+(marginnote)              on input line 195.
+Package marginnote Info: right page because not two side mode on input line 195
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 191.
+(marginnote)             \marginnoteleftadjust ignored on input line 195.
 
-Overfull \hbox (0.84705pt too wide) in paragraph at lines 200--206
+Overfull \hbox (0.84705pt too wide) in paragraph at lines 204--210
 \TU/AdobeCaslonPro(0)/m/n/10.95 PFLOTRAN numerical models and generating nodal 
 grids for finite-element meshes. Have
  []
 
 
-Overfull \hbox (1.59134pt too wide) in paragraph at lines 200--206
+Overfull \hbox (1.59134pt too wide) in paragraph at lines 204--210
 \TU/AdobeCaslonPro(0)/m/n/10.95 also developed standalone software applications
  for real-time predictions of gas breakthrough
  []
 
 [2] [3]
 Package marginnote Info: Margin note 4.1 is on absolute page 4
-(marginnote)              on input line 232.
-Package marginnote Info: right page because not two side mode on input line 232
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 232.
-Package marginnote Info: Margin note 4.2 is on absolute page 4
-(marginnote)              on input line 233.
-Package marginnote Info: right page because not two side mode on input line 233
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 233.
-Package marginnote Info: Margin note 4.3 is on absolute page 4
-(marginnote)              on input line 234.
-Package marginnote Info: right page because not two side mode on input line 234
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 234.
-Package marginnote Info: Margin note 4.4 is on absolute page 4
-(marginnote)              on input line 235.
-Package marginnote Info: right page because not two side mode on input line 235
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 235.
-Package marginnote Info: Margin note 4.5 is on absolute page 4
 (marginnote)              on input line 236.
 Package marginnote Info: right page because not two side mode on input line 236
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 236.
-Package marginnote Info: Margin note 4.6 is on absolute page 4
+Package marginnote Info: Margin note 4.2 is on absolute page 4
 (marginnote)              on input line 237.
 Package marginnote Info: right page because not two side mode on input line 237
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 237.
-Package marginnote Info: Margin note 4.7 is on absolute page 4
+Package marginnote Info: Margin note 4.3 is on absolute page 4
 (marginnote)              on input line 238.
 Package marginnote Info: right page because not two side mode on input line 238
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 238.
-Package marginnote Info: Margin note 4.8 is on absolute page 4
+Package marginnote Info: Margin note 4.4 is on absolute page 4
+(marginnote)              on input line 239.
+Package marginnote Info: right page because not two side mode on input line 239
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 239.
+Package marginnote Info: Margin note 4.5 is on absolute page 4
+(marginnote)              on input line 240.
+Package marginnote Info: right page because not two side mode on input line 240
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 240.
+Package marginnote Info: Margin note 4.6 is on absolute page 4
+(marginnote)              on input line 241.
+Package marginnote Info: right page because not two side mode on input line 241
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 241.
+Package marginnote Info: Margin note 4.7 is on absolute page 4
 (marginnote)              on input line 242.
 Package marginnote Info: right page because not two side mode on input line 242
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 242.
-Package marginnote Info: Margin note 4.9 is on absolute page 4
-(marginnote)              on input line 243.
-Package marginnote Info: right page because not two side mode on input line 243
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 243.
-Package marginnote Info: Margin note 4.10 is on absolute page 5
-(marginnote)              on input line 244.
-Package marginnote Info: right page because not two side mode on input line 244
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 244.
-Package marginnote Info: Margin note 4.11 is on absolute page 5
-(marginnote)              on input line 245.
-Package marginnote Info: right page because not two side mode on input line 245
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 245.
-Package marginnote Info: Margin note 4.12 is on absolute page 5
+Package marginnote Info: Margin note 4.8 is on absolute page 4
 (marginnote)              on input line 246.
 Package marginnote Info: right page because not two side mode on input line 246
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 246.
-Package marginnote Info: Margin note 4.13 is on absolute page 5
+Package marginnote Info: Margin note 4.9 is on absolute page 4
 (marginnote)              on input line 247.
 Package marginnote Info: right page because not two side mode on input line 247
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 247.
-Package marginnote Info: Margin note 4.14 is on absolute page 5
+Package marginnote Info: Margin note 4.10 is on absolute page 5
 (marginnote)              on input line 248.
 Package marginnote Info: right page because not two side mode on input line 248
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 248.
+Package marginnote Info: Margin note 4.11 is on absolute page 5
+(marginnote)              on input line 249.
+Package marginnote Info: right page because not two side mode on input line 249
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 249.
+Package marginnote Info: Margin note 4.12 is on absolute page 5
+(marginnote)              on input line 250.
+Package marginnote Info: right page because not two side mode on input line 250
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 250.
+Package marginnote Info: Margin note 4.13 is on absolute page 5
+(marginnote)              on input line 251.
+Package marginnote Info: right page because not two side mode on input line 251
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 251.
+Package marginnote Info: Margin note 4.14 is on absolute page 5
+(marginnote)              on input line 252.
+Package marginnote Info: right page because not two side mode on input line 252
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 252.
  [4]
 Package marginnote Info: Margin note 5.1 is on absolute page 5
-(marginnote)              on input line 259.
-Package marginnote Info: right page because not two side mode on input line 259
-.
-
-Overfull \hbox (1.81091pt too wide) in paragraph at lines 259--259
-| \TU/AdobeCaslonPro(0)/m/n/8 2013 - present 
- []
-
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 259.
-Package marginnote Info: Margin note 5.2 is on absolute page 5
-(marginnote)              on input line 260.
-Package marginnote Info: right page because not two side mode on input line 260
-.
-
-Overfull \hbox (1.81091pt too wide) in paragraph at lines 260--260
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2015 - present 
- []
-
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 260.
-Package marginnote Info: Margin note 5.3 is on absolute page 5
-(marginnote)              on input line 261.
-Package marginnote Info: right page because not two side mode on input line 261
-.
-
-Overfull \hbox (1.81091pt too wide) in paragraph at lines 261--261
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2016 - present 
- []
-
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 261.
-Package marginnote Info: Margin note 5.4 is on absolute page 5
-(marginnote)              on input line 262.
-Package marginnote Info: right page because not two side mode on input line 262
-.
-
-Overfull \hbox (1.81091pt too wide) in paragraph at lines 262--262
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2017 - present 
- []
-
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 262.
-Package marginnote Info: Margin note 5.5 is on absolute page 5
 (marginnote)              on input line 263.
 Package marginnote Info: right page because not two side mode on input line 263
 .
 
 Overfull \hbox (1.81091pt too wide) in paragraph at lines 263--263
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2017 - present 
+| \TU/AdobeCaslonPro(0)/m/n/8 2013 - present 
  []
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 263.
-Package marginnote Info: Margin note 5.6 is on absolute page 5
+Package marginnote Info: Margin note 5.2 is on absolute page 5
 (marginnote)              on input line 264.
 Package marginnote Info: right page because not two side mode on input line 264
 .
 
 Overfull \hbox (1.81091pt too wide) in paragraph at lines 264--264
-[]| \TU/AdobeCaslonPro(0)/m/n/8 2018 - present 
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2015 - present 
  []
 
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 264.
+Package marginnote Info: Margin note 5.3 is on absolute page 5
+(marginnote)              on input line 265.
+Package marginnote Info: right page because not two side mode on input line 265
+.
+
+Overfull \hbox (1.81091pt too wide) in paragraph at lines 265--265
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2016 - present 
+ []
+
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 265.
+Package marginnote Info: Margin note 5.4 is on absolute page 5
+(marginnote)              on input line 266.
+Package marginnote Info: right page because not two side mode on input line 266
+.
+
+Overfull \hbox (1.81091pt too wide) in paragraph at lines 266--266
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2017 - present 
+ []
+
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 266.
+Package marginnote Info: Margin note 5.5 is on absolute page 5
+(marginnote)              on input line 267.
+Package marginnote Info: right page because not two side mode on input line 267
+.
+
+Overfull \hbox (1.81091pt too wide) in paragraph at lines 267--267
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2017 - present 
+ []
+
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 267.
+Package marginnote Info: Margin note 5.6 is on absolute page 5
+(marginnote)              on input line 268.
+Package marginnote Info: right page because not two side mode on input line 268
+.
+
+Overfull \hbox (1.81091pt too wide) in paragraph at lines 268--268
+[]| \TU/AdobeCaslonPro(0)/m/n/8 2018 - present 
+ []
+
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 268.
 Package marginnote Info: Margin note 5.7 is on absolute page 5
-(marginnote)              on input line 275.
-Package marginnote Info: right page because not two side mode on input line 275
+(marginnote)              on input line 279.
+Package marginnote Info: right page because not two side mode on input line 279
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 275.
+(marginnote)             \marginnoteleftadjust ignored on input line 279.
 \g__fontspec_family_TimesNewRoman_int=\count274
 .................................................
 . fontspec info: "defining-font"
@@ -1266,23 +1289,23 @@ Package marginnote Info: xpos seems to be 108.405pt,
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
 [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
  (./john_ortiz_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 296.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `john_ortiz_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 292.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 22520 strings out of 492970
- 418125 string characters out of 6133938
- 499983 words of memory out of 5000000
- 26347 multiletter control sequences out of 15000+600000
+ 22684 strings out of 492970
+ 420386 string characters out of 6133938
+ 502075 words of memory out of 5000000
+ 26496 multiletter control sequences out of 15000+600000
  534397 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 42i,9n,83p,10396b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,83p,10396b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on john_ortiz_cv.pdf (5 pages).
