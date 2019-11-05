@@ -1,7 +1,6 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  28 SEP 2019 11:27
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  5 NOV 2019 10:41
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **john_ortiz_cv.tex
 (./john_ortiz_cv.tex
@@ -553,8 +552,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 
 
-/usr/local/texlive/2016/texmf-dist/tex/latex/marvosym/marvosym.sty:44: LaTeX Er
-ror: Command \Letter already defined.
+! LaTeX Error: Command \Letter already defined.
                Or name \end... illegal, see p.192 of the manual.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -1082,10 +1080,12 @@ Overfull \hbox (1.81091pt too wide) in paragraph at lines 218--218
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 218.
 [2]
+Package marginnote Info: Margin note 3.1 is on absolute page 3
+(marginnote)              on input line 223.
 Package marginnote Info: right page because not two side mode on input line 223
 .
-Package marginnote Info: xpos not known,
-(marginnote)             using \marginnoteleftadjust on input line 223.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 223.
 
 Overfull \hbox (0.84705pt too wide) in paragraph at lines 232--238
 \EU1/AdobeCaslonPro(0)/m/n/10.95 PFLOTRAN numerical models and generating nodal
@@ -1288,19 +1288,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
  (./john_ortiz_cv.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 334.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 334.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 334.
  ) 
 Here is how much of TeX's memory you used:
- 22152 strings out of 493591
- 398208 string characters out of 6143546
+ 22151 strings out of 493591
+ 398197 string characters out of 6143546
  418484 words of memory out of 5000000
- 25347 multiletter control sequences out of 15000+600000
+ 25346 multiletter control sequences out of 15000+600000
  7773 words of font info for 70 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 48i,9n,74p,10353b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,14n,74p,10353b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on john_ortiz_cv.pdf (6 pages).
