@@ -27,6 +27,10 @@
 *.swp
 *latexmk*
 
+# Temp files 
+###################
+*.sw?
+
 # Compiled source #
 ###################
 *.com
