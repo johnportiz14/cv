@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  19 NOV 2023 13:04
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  23 DEC 2023 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,280 +996,280 @@ Package marginnote Info: xpos seems to be 108.405pt,
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Font shape `EU1/AdobeCaslonPro(1)/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 200.
+(Font)              scaled to size 13.67995pt on input line 201.
 LaTeX Font Info:    Font shape `EU1/AdobeCaslonPro(1)/m/it' will be
-(Font)              scaled to size 13.67995pt on input line 200.
+(Font)              scaled to size 13.67995pt on input line 201.
 Package marginnote Info: Margin note 1.5 is on absolute page 1
-(marginnote)              on input line 205.
-Package marginnote Info: right page because not two side mode on input line 205
+(marginnote)              on input line 206.
+Package marginnote Info: right page because not two side mode on input line 206
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 205.
+(marginnote)             \marginnoteleftadjust ignored on input line 206.
 Package marginnote Info: Margin note 1.6 is on absolute page 1
-(marginnote)              on input line 213.
-Package marginnote Info: right page because not two side mode on input line 213
+(marginnote)              on input line 214.
+Package marginnote Info: right page because not two side mode on input line 214
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 213.
+(marginnote)             \marginnoteleftadjust ignored on input line 214.
 Package marginnote Info: Margin note 1.7 is on absolute page 1
-(marginnote)              on input line 221.
-Package marginnote Info: right page because not two side mode on input line 221
+(marginnote)              on input line 222.
+Package marginnote Info: right page because not two side mode on input line 222
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 221.
-Package marginnote Info: Margin note 1.8 is on absolute page 2
-(marginnote)              on input line 234.
-Package marginnote Info: right page because not two side mode on input line 234
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 234.
+(marginnote)             \marginnoteleftadjust ignored on input line 222.
  [1
 
 ]
 Package marginnote Info: Margin note 2.1 is on absolute page 2
-(marginnote)              on input line 245.
-Package marginnote Info: right page because not two side mode on input line 245
+(marginnote)              on input line 235.
+Package marginnote Info: right page because not two side mode on input line 235
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 245.
+(marginnote)             \marginnoteleftadjust ignored on input line 235.
 Package marginnote Info: Margin note 2.2 is on absolute page 2
-(marginnote)              on input line 257.
-Package marginnote Info: right page because not two side mode on input line 257
+(marginnote)              on input line 246.
+Package marginnote Info: right page because not two side mode on input line 246
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 257.
+(marginnote)             \marginnoteleftadjust ignored on input line 246.
 Package marginnote Info: Margin note 2.3 is on absolute page 2
-(marginnote)              on input line 270.
-Package marginnote Info: right page because not two side mode on input line 270
+(marginnote)              on input line 258.
+Package marginnote Info: right page because not two side mode on input line 258
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 270.
+(marginnote)             \marginnoteleftadjust ignored on input line 258.
 Package marginnote Info: Margin note 2.4 is on absolute page 2
-(marginnote)              on input line 284.
-Package marginnote Info: right page because not two side mode on input line 284
+(marginnote)              on input line 271.
+Package marginnote Info: right page because not two side mode on input line 271
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 284.
+(marginnote)             \marginnoteleftadjust ignored on input line 271.
+Package marginnote Info: Margin note 2.5 is on absolute page 2
+(marginnote)              on input line 285.
+Package marginnote Info: right page because not two side mode on input line 285
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 285.
 
-Overfull \hbox (7.87767pt too wide) in paragraph at lines 292--299
+Overfull \hbox (7.87767pt too wide) in paragraph at lines 293--300
 []\EU1/AdobeCaslonPro(0)/m/n/10.95 Lead a NMSBA (New Mexico Small Business Assi
 stance; [][]https://www.nmsbaprogram.org/[][])
  []
 
-Package marginnote Info: Margin note 2.5 is on absolute page 2
-(marginnote)              on input line 303.
-Package marginnote Info: right page because not two side mode on input line 303
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 303.
 [2]
 Package marginnote Info: Margin note 3.1 is on absolute page 3
-(marginnote)              on input line 329.
-Package marginnote Info: right page because not two side mode on input line 329
+(marginnote)              on input line 304.
+Package marginnote Info: right page because not two side mode on input line 304
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 329.
+(marginnote)             \marginnoteleftadjust ignored on input line 304.
 Package marginnote Info: Margin note 3.2 is on absolute page 3
-(marginnote)              on input line 349.
-Package marginnote Info: right page because not two side mode on input line 349
+(marginnote)              on input line 330.
+Package marginnote Info: right page because not two side mode on input line 330
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 349.
+(marginnote)             \marginnoteleftadjust ignored on input line 330.
 Package marginnote Info: Margin note 3.3 is on absolute page 3
-(marginnote)              on input line 360.
-Package marginnote Info: right page because not two side mode on input line 360
+(marginnote)              on input line 350.
+Package marginnote Info: right page because not two side mode on input line 350
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 360.
-Package marginnote Info: Margin note 3.4 is on absolute page 4
-(marginnote)              on input line 372.
-Package marginnote Info: right page because not two side mode on input line 372
+(marginnote)             \marginnoteleftadjust ignored on input line 350.
+Package marginnote Info: Margin note 3.4 is on absolute page 3
+(marginnote)              on input line 361.
+Package marginnote Info: right page because not two side mode on input line 361
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 372.
+(marginnote)             \marginnoteleftadjust ignored on input line 361.
  [3]
 Package marginnote Info: Margin note 4.1 is on absolute page 4
-(marginnote)              on input line 379.
-Package marginnote Info: right page because not two side mode on input line 379
+(marginnote)              on input line 373.
+Package marginnote Info: right page because not two side mode on input line 373
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 379.
+(marginnote)             \marginnoteleftadjust ignored on input line 373.
+Package marginnote Info: Margin note 4.2 is on absolute page 4
+(marginnote)              on input line 380.
+Package marginnote Info: right page because not two side mode on input line 380
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 380.
 
-Overfull \hbox (0.84705pt too wide) in paragraph at lines 388--412
+Overfull \hbox (0.84705pt too wide) in paragraph at lines 389--413
 \EU1/AdobeCaslonPro(0)/m/n/10.95 PFLOTRAN numerical models and generating nodal
  grids for finite-element meshes. Have
  []
 
 [4] [5]
 Package marginnote Info: Margin note 6.1 is on absolute page 6
-(marginnote)              on input line 489.
-Package marginnote Info: right page because not two side mode on input line 489
+(marginnote)              on input line 490.
+Package marginnote Info: right page because not two side mode on input line 490
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 489.
+(marginnote)             \marginnoteleftadjust ignored on input line 490.
 Package marginnote Info: Margin note 6.2 is on absolute page 6
-(marginnote)              on input line 499.
-Package marginnote Info: right page because not two side mode on input line 499
+(marginnote)              on input line 500.
+Package marginnote Info: right page because not two side mode on input line 500
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 499.
+(marginnote)             \marginnoteleftadjust ignored on input line 500.
 Package marginnote Info: Margin note 6.3 is on absolute page 6
-(marginnote)              on input line 504.
-Package marginnote Info: right page because not two side mode on input line 504
+(marginnote)              on input line 505.
+Package marginnote Info: right page because not two side mode on input line 505
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 504.
+(marginnote)             \marginnoteleftadjust ignored on input line 505.
 Package marginnote Info: Margin note 6.4 is on absolute page 6
-(marginnote)              on input line 509.
-Package marginnote Info: right page because not two side mode on input line 509
+(marginnote)              on input line 510.
+Package marginnote Info: right page because not two side mode on input line 510
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 509.
+(marginnote)             \marginnoteleftadjust ignored on input line 510.
 Package marginnote Info: Margin note 6.5 is on absolute page 6
-(marginnote)              on input line 515.
-Package marginnote Info: right page because not two side mode on input line 515
+(marginnote)              on input line 516.
+Package marginnote Info: right page because not two side mode on input line 516
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 515.
+(marginnote)             \marginnoteleftadjust ignored on input line 516.
 Package marginnote Info: Margin note 6.6 is on absolute page 6
-(marginnote)              on input line 519.
-Package marginnote Info: right page because not two side mode on input line 519
+(marginnote)              on input line 520.
+Package marginnote Info: right page because not two side mode on input line 520
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 519.
+(marginnote)             \marginnoteleftadjust ignored on input line 520.
 Package marginnote Info: Margin note 6.7 is on absolute page 6
-(marginnote)              on input line 524.
-Package marginnote Info: right page because not two side mode on input line 524
+(marginnote)              on input line 525.
+Package marginnote Info: right page because not two side mode on input line 525
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 524.
+(marginnote)             \marginnoteleftadjust ignored on input line 525.
 Package marginnote Info: Margin note 6.8 is on absolute page 6
-(marginnote)              on input line 529.
-Package marginnote Info: right page because not two side mode on input line 529
+(marginnote)              on input line 530.
+Package marginnote Info: right page because not two side mode on input line 530
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 529.
+(marginnote)             \marginnoteleftadjust ignored on input line 530.
 Package marginnote Info: Margin note 6.9 is on absolute page 6
-(marginnote)              on input line 533.
-Package marginnote Info: right page because not two side mode on input line 533
+(marginnote)              on input line 534.
+Package marginnote Info: right page because not two side mode on input line 534
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 533.
+(marginnote)             \marginnoteleftadjust ignored on input line 534.
 Package marginnote Info: Margin note 6.10 is on absolute page 6
-(marginnote)              on input line 537.
-Package marginnote Info: right page because not two side mode on input line 537
+(marginnote)              on input line 538.
+Package marginnote Info: right page because not two side mode on input line 538
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 537.
+(marginnote)             \marginnoteleftadjust ignored on input line 538.
 Package marginnote Info: Margin note 6.11 is on absolute page 6
-(marginnote)              on input line 541.
-Package marginnote Info: right page because not two side mode on input line 541
+(marginnote)              on input line 542.
+Package marginnote Info: right page because not two side mode on input line 542
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 541.
+(marginnote)             \marginnoteleftadjust ignored on input line 542.
 Package marginnote Info: Margin note 6.12 is on absolute page 7
-(marginnote)              on input line 546.
-Package marginnote Info: right page because not two side mode on input line 546
+(marginnote)              on input line 547.
+Package marginnote Info: right page because not two side mode on input line 547
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 546.
+(marginnote)             \marginnoteleftadjust ignored on input line 547.
 Package marginnote Info: Margin note 6.13 is on absolute page 7
-(marginnote)              on input line 550.
-Package marginnote Info: right page because not two side mode on input line 550
+(marginnote)              on input line 551.
+Package marginnote Info: right page because not two side mode on input line 551
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 550.
+(marginnote)             \marginnoteleftadjust ignored on input line 551.
 Package marginnote Info: Margin note 6.14 is on absolute page 7
-(marginnote)              on input line 554.
-Package marginnote Info: right page because not two side mode on input line 554
+(marginnote)              on input line 555.
+Package marginnote Info: right page because not two side mode on input line 555
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 554.
+(marginnote)             \marginnoteleftadjust ignored on input line 555.
 Package marginnote Info: Margin note 6.15 is on absolute page 7
-(marginnote)              on input line 560.
-Package marginnote Info: right page because not two side mode on input line 560
+(marginnote)              on input line 561.
+Package marginnote Info: right page because not two side mode on input line 561
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 560.
+(marginnote)             \marginnoteleftadjust ignored on input line 561.
 Package marginnote Info: Margin note 6.16 is on absolute page 7
-(marginnote)              on input line 563.
-Package marginnote Info: right page because not two side mode on input line 563
+(marginnote)              on input line 564.
+Package marginnote Info: right page because not two side mode on input line 564
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 563.
+(marginnote)             \marginnoteleftadjust ignored on input line 564.
  [6]
 Package marginnote Info: Margin note 7.1 is on absolute page 7
-(marginnote)              on input line 569.
-Package marginnote Info: right page because not two side mode on input line 569
+(marginnote)              on input line 570.
+Package marginnote Info: right page because not two side mode on input line 570
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 569.
+(marginnote)             \marginnoteleftadjust ignored on input line 570.
 Package marginnote Info: Margin note 7.2 is on absolute page 7
-(marginnote)              on input line 572.
-Package marginnote Info: right page because not two side mode on input line 572
+(marginnote)              on input line 573.
+Package marginnote Info: right page because not two side mode on input line 573
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 572.
+(marginnote)             \marginnoteleftadjust ignored on input line 573.
 Package marginnote Info: Margin note 7.3 is on absolute page 7
-(marginnote)              on input line 575.
-Package marginnote Info: right page because not two side mode on input line 575
+(marginnote)              on input line 576.
+Package marginnote Info: right page because not two side mode on input line 576
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 575.
+(marginnote)             \marginnoteleftadjust ignored on input line 576.
 Package marginnote Info: Margin note 7.4 is on absolute page 7
-(marginnote)              on input line 578.
-Package marginnote Info: right page because not two side mode on input line 578
+(marginnote)              on input line 579.
+Package marginnote Info: right page because not two side mode on input line 579
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 578.
+(marginnote)             \marginnoteleftadjust ignored on input line 579.
 Package marginnote Info: Margin note 7.5 is on absolute page 7
-(marginnote)              on input line 581.
-Package marginnote Info: right page because not two side mode on input line 581
+(marginnote)              on input line 582.
+Package marginnote Info: right page because not two side mode on input line 582
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 581.
+(marginnote)             \marginnoteleftadjust ignored on input line 582.
 Package marginnote Info: Margin note 7.6 is on absolute page 7
-(marginnote)              on input line 584.
-Package marginnote Info: right page because not two side mode on input line 584
+(marginnote)              on input line 585.
+Package marginnote Info: right page because not two side mode on input line 585
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 584.
+(marginnote)             \marginnoteleftadjust ignored on input line 585.
 Package marginnote Info: Margin note 7.7 is on absolute page 7
-(marginnote)              on input line 587.
-Package marginnote Info: right page because not two side mode on input line 587
+(marginnote)              on input line 588.
+Package marginnote Info: right page because not two side mode on input line 588
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 587.
+(marginnote)             \marginnoteleftadjust ignored on input line 588.
 Package marginnote Info: Margin note 7.8 is on absolute page 7
-(marginnote)              on input line 589.
-Package marginnote Info: right page because not two side mode on input line 589
+(marginnote)              on input line 590.
+Package marginnote Info: right page because not two side mode on input line 590
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 589.
+(marginnote)             \marginnoteleftadjust ignored on input line 590.
 Package marginnote Info: Margin note 7.9 is on absolute page 7
-(marginnote)              on input line 595.
-Package marginnote Info: right page because not two side mode on input line 595
+(marginnote)              on input line 596.
+Package marginnote Info: right page because not two side mode on input line 596
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 595.
+(marginnote)             \marginnoteleftadjust ignored on input line 596.
 
-Overfull \hbox (3.60724pt too wide) in paragraph at lines 569--598
+Overfull \hbox (3.60724pt too wide) in paragraph at lines 570--599
 |[]\EU1/AdobeCaslonPro(0)/m/n/10.95 “PE1-A pressure and permeability prediction
 s”, LYNM Quad-Laboratory All-Hands Meet-
  []
 
 Package marginnote Info: Margin note 7.10 is on absolute page 7
-(marginnote)              on input line 603.
-Package marginnote Info: right page because not two side mode on input line 603
+(marginnote)              on input line 604.
+Package marginnote Info: right page because not two side mode on input line 604
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 603.
+(marginnote)             \marginnoteleftadjust ignored on input line 604.
 Package marginnote Info: Margin note 7.11 is on absolute page 8
-(marginnote)              on input line 608.
-Package marginnote Info: right page because not two side mode on input line 608
+(marginnote)              on input line 609.
+Package marginnote Info: right page because not two side mode on input line 609
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 608.
+(marginnote)             \marginnoteleftadjust ignored on input line 609.
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1301,204 +1301,204 @@ onum;+sups;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
 Package marginnote Info: Margin note 7.12 is on absolute page 8
-(marginnote)              on input line 612.
-Package marginnote Info: right page because not two side mode on input line 612
+(marginnote)              on input line 613.
+Package marginnote Info: right page because not two side mode on input line 613
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 612.
+(marginnote)             \marginnoteleftadjust ignored on input line 613.
 Package marginnote Info: Margin note 7.13 is on absolute page 8
-(marginnote)              on input line 617.
-Package marginnote Info: right page because not two side mode on input line 617
+(marginnote)              on input line 618.
+Package marginnote Info: right page because not two side mode on input line 618
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 617.
+(marginnote)             \marginnoteleftadjust ignored on input line 618.
 Package marginnote Info: Margin note 7.14 is on absolute page 8
-(marginnote)              on input line 623.
-Package marginnote Info: right page because not two side mode on input line 623
+(marginnote)              on input line 624.
+Package marginnote Info: right page because not two side mode on input line 624
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 623.
+(marginnote)             \marginnoteleftadjust ignored on input line 624.
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--627
+Underfull \hbox (badness 10000) in paragraph at lines 604--628
 
  []
 
 [7]
 Package marginnote Info: Margin note 8.1 is on absolute page 8
-(marginnote)              on input line 629.
-Package marginnote Info: right page because not two side mode on input line 629
+(marginnote)              on input line 630.
+Package marginnote Info: right page because not two side mode on input line 630
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 629.
+(marginnote)             \marginnoteleftadjust ignored on input line 630.
 Package marginnote Info: Margin note 8.2 is on absolute page 8
-(marginnote)              on input line 633.
-Package marginnote Info: right page because not two side mode on input line 633
+(marginnote)              on input line 634.
+Package marginnote Info: right page because not two side mode on input line 634
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 633.
+(marginnote)             \marginnoteleftadjust ignored on input line 634.
 Package marginnote Info: Margin note 8.3 is on absolute page 8
-(marginnote)              on input line 638.
-Package marginnote Info: right page because not two side mode on input line 638
+(marginnote)              on input line 639.
+Package marginnote Info: right page because not two side mode on input line 639
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 638.
+(marginnote)             \marginnoteleftadjust ignored on input line 639.
 Package marginnote Info: Margin note 8.4 is on absolute page 8
-(marginnote)              on input line 644.
-Package marginnote Info: right page because not two side mode on input line 644
+(marginnote)              on input line 645.
+Package marginnote Info: right page because not two side mode on input line 645
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 644.
+(marginnote)             \marginnoteleftadjust ignored on input line 645.
 Package marginnote Info: Margin note 8.5 is on absolute page 8
-(marginnote)              on input line 650.
-Package marginnote Info: right page because not two side mode on input line 650
+(marginnote)              on input line 651.
+Package marginnote Info: right page because not two side mode on input line 651
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 650.
+(marginnote)             \marginnoteleftadjust ignored on input line 651.
 Package marginnote Info: Margin note 8.6 is on absolute page 8
-(marginnote)              on input line 656.
-Package marginnote Info: right page because not two side mode on input line 656
+(marginnote)              on input line 657.
+Package marginnote Info: right page because not two side mode on input line 657
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 656.
+(marginnote)             \marginnoteleftadjust ignored on input line 657.
 Package marginnote Info: Margin note 8.7 is on absolute page 8
-(marginnote)              on input line 659.
-Package marginnote Info: right page because not two side mode on input line 659
+(marginnote)              on input line 660.
+Package marginnote Info: right page because not two side mode on input line 660
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 659.
+(marginnote)             \marginnoteleftadjust ignored on input line 660.
 Package marginnote Info: Margin note 8.8 is on absolute page 9
-(marginnote)              on input line 663.
-Package marginnote Info: right page because not two side mode on input line 663
+(marginnote)              on input line 664.
+Package marginnote Info: right page because not two side mode on input line 664
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 663.
+(marginnote)             \marginnoteleftadjust ignored on input line 664.
 Package marginnote Info: Margin note 8.9 is on absolute page 9
-(marginnote)              on input line 666.
-Package marginnote Info: right page because not two side mode on input line 666
+(marginnote)              on input line 667.
+Package marginnote Info: right page because not two side mode on input line 667
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 666.
+(marginnote)             \marginnoteleftadjust ignored on input line 667.
 Package marginnote Info: Margin note 8.10 is on absolute page 9
-(marginnote)              on input line 669.
-Package marginnote Info: right page because not two side mode on input line 669
+(marginnote)              on input line 670.
+Package marginnote Info: right page because not two side mode on input line 670
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 669.
+(marginnote)             \marginnoteleftadjust ignored on input line 670.
 Package marginnote Info: Margin note 8.11 is on absolute page 9
-(marginnote)              on input line 673.
-Package marginnote Info: right page because not two side mode on input line 673
+(marginnote)              on input line 674.
+Package marginnote Info: right page because not two side mode on input line 674
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 673.
+(marginnote)             \marginnoteleftadjust ignored on input line 674.
 Package marginnote Info: Margin note 8.12 is on absolute page 9
-(marginnote)              on input line 675.
-Package marginnote Info: right page because not two side mode on input line 675
+(marginnote)              on input line 676.
+Package marginnote Info: right page because not two side mode on input line 676
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 675.
+(marginnote)             \marginnoteleftadjust ignored on input line 676.
 Package marginnote Info: Margin note 8.13 is on absolute page 9
-(marginnote)              on input line 678.
-Package marginnote Info: right page because not two side mode on input line 678
+(marginnote)              on input line 679.
+Package marginnote Info: right page because not two side mode on input line 679
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 678.
+(marginnote)             \marginnoteleftadjust ignored on input line 679.
 Package marginnote Info: Margin note 8.14 is on absolute page 9
-(marginnote)              on input line 681.
-Package marginnote Info: right page because not two side mode on input line 681
+(marginnote)              on input line 682.
+Package marginnote Info: right page because not two side mode on input line 682
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 681.
+(marginnote)             \marginnoteleftadjust ignored on input line 682.
 
-Overfull \hbox (2.56058pt too wide) in paragraph at lines 656--684
+Overfull \hbox (2.56058pt too wide) in paragraph at lines 657--685
 |[]\EU1/AdobeCaslonPro(0)/m/n/10.95 “NROMM Seepage Tool: recent capability deve
 lopment and analytical verification”, LANL,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--684
+Underfull \hbox (badness 10000) in paragraph at lines 657--685
 
  []
 
 [8]
 Package marginnote Info: Margin note 9.1 is on absolute page 9
-(marginnote)              on input line 690.
-Package marginnote Info: right page because not two side mode on input line 690
+(marginnote)              on input line 691.
+Package marginnote Info: right page because not two side mode on input line 691
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 690.
+(marginnote)             \marginnoteleftadjust ignored on input line 691.
 Package marginnote Info: Margin note 9.2 is on absolute page 9
-(marginnote)              on input line 695.
-Package marginnote Info: right page because not two side mode on input line 695
+(marginnote)              on input line 696.
+Package marginnote Info: right page because not two side mode on input line 696
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 695.
+(marginnote)             \marginnoteleftadjust ignored on input line 696.
 Package marginnote Info: Margin note 9.3 is on absolute page 9
-(marginnote)              on input line 700.
-Package marginnote Info: right page because not two side mode on input line 700
+(marginnote)              on input line 701.
+Package marginnote Info: right page because not two side mode on input line 701
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 700.
+(marginnote)             \marginnoteleftadjust ignored on input line 701.
 
-Overfull \hbox (33.08072pt too wide) in paragraph at lines 689--704
+Overfull \hbox (33.08072pt too wide) in paragraph at lines 690--705
 \EU1/AdobeCaslonPro(0)/m/n/10.95 microbial source”. \EU1/AdobeCaslonPro(0)/m/it
 /10.95 STE Highlights\EU1/AdobeCaslonPro(0)/m/n/10.95 , August 2022. [][]https:
 //www.lanl.gov/science-innovation/science-
  []
 
 
-Overfull \hbox (11.27597pt too wide) in paragraph at lines 689--704
+Overfull \hbox (11.27597pt too wide) in paragraph at lines 690--705
 \EU1/AdobeCaslonPro(0)/m/n/10.95 August 2022. [][]https://int.lanl.gov/news/new
 s_stories/2022/august/0822-mars-methane.shtml[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--704
+Underfull \hbox (badness 10000) in paragraph at lines 690--705
 
  []
 
 Package marginnote Info: Margin note 9.4 is on absolute page 9
-(marginnote)              on input line 710.
-Package marginnote Info: right page because not two side mode on input line 710
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 710.
-Package marginnote Info: Margin note 9.5 is on absolute page 9
 (marginnote)              on input line 711.
 Package marginnote Info: right page because not two side mode on input line 711
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 711.
-Package marginnote Info: Margin note 9.6 is on absolute page 9
+Package marginnote Info: Margin note 9.5 is on absolute page 9
 (marginnote)              on input line 712.
 Package marginnote Info: right page because not two side mode on input line 712
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 712.
-Package marginnote Info: Margin note 9.7 is on absolute page 9
+Package marginnote Info: Margin note 9.6 is on absolute page 9
 (marginnote)              on input line 713.
 Package marginnote Info: right page because not two side mode on input line 713
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 713.
-Package marginnote Info: Margin note 9.8 is on absolute page 9
+Package marginnote Info: Margin note 9.7 is on absolute page 9
 (marginnote)              on input line 714.
 Package marginnote Info: right page because not two side mode on input line 714
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 714.
-Package marginnote Info: Margin note 9.9 is on absolute page 9
+Package marginnote Info: Margin note 9.8 is on absolute page 9
 (marginnote)              on input line 715.
 Package marginnote Info: right page because not two side mode on input line 715
 .
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 715.
-[9]
-Package marginnote Info: Margin note 10.1 is on absolute page 10
-(marginnote)              on input line 752.
-Package marginnote Info: right page because not two side mode on input line 752
+Package marginnote Info: Margin note 9.9 is on absolute page 9
+(marginnote)              on input line 716.
+Package marginnote Info: right page because not two side mode on input line 716
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 752.
+(marginnote)             \marginnoteleftadjust ignored on input line 716.
+[9]
+Package marginnote Info: Margin note 10.1 is on absolute page 10
+(marginnote)              on input line 753.
+Package marginnote Info: right page because not two side mode on input line 753
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 753.
 \g__fontspec_family_TimesNewRoman_int=\count156
 .................................................
 . fontspec info: "defining-font"
@@ -1518,13 +1518,13 @@ Package marginnote Info: xpos seems to be 108.405pt,
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 769.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 770.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 769.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 770.
  (./john_ortiz_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 769.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 769.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 769.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 770.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 770.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 770.
  ) 
 Here is how much of TeX's memory you used:
  22029 strings out of 493591
@@ -1533,6 +1533,6 @@ Here is how much of TeX's memory you used:
  25228 multiletter control sequences out of 15000+600000
  7626 words of font info for 71 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 48i,14n,74p,10353b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,14n,74p,10353b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on john_ortiz_cv.pdf (10 pages).
