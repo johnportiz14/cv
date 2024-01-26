@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  24 JAN 2024 10:12
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  26 JAN 2024 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,90 +1434,115 @@ Package marginnote Info: right page because not two side mode on input line 690
 Package marginnote Info: xpos seems to be 108.405pt,
 (marginnote)             \marginnoteleftadjust ignored on input line 690.
 Package marginnote Info: Margin note 9.2 is on absolute page 9
-(marginnote)              on input line 695.
-Package marginnote Info: right page because not two side mode on input line 695
+(marginnote)              on input line 696.
+Package marginnote Info: right page because not two side mode on input line 696
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 695.
+(marginnote)             \marginnoteleftadjust ignored on input line 696.
 Package marginnote Info: Margin note 9.3 is on absolute page 9
-(marginnote)              on input line 701.
-Package marginnote Info: right page because not two side mode on input line 701
+(marginnote)              on input line 702.
+Package marginnote Info: right page because not two side mode on input line 702
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 701.
+(marginnote)             \marginnoteleftadjust ignored on input line 702.
 Package marginnote Info: Margin note 9.4 is on absolute page 9
-(marginnote)              on input line 707.
-Package marginnote Info: right page because not two side mode on input line 707
+(marginnote)              on input line 705.
+Package marginnote Info: right page because not two side mode on input line 705
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 707.
+(marginnote)             \marginnoteleftadjust ignored on input line 705.
 Package marginnote Info: Margin note 9.5 is on absolute page 9
-(marginnote)              on input line 713.
-Package marginnote Info: right page because not two side mode on input line 713
+(marginnote)              on input line 710.
+Package marginnote Info: right page because not two side mode on input line 710
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 713.
+(marginnote)             \marginnoteleftadjust ignored on input line 710.
+Package marginnote Info: Margin note 9.6 is on absolute page 9
+(marginnote)              on input line 716.
+Package marginnote Info: right page because not two side mode on input line 716
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 716.
+Package marginnote Info: Margin note 9.7 is on absolute page 9
+(marginnote)              on input line 722.
+Package marginnote Info: right page because not two side mode on input line 722
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 722.
+Package marginnote Info: Margin note 9.8 is on absolute page 9
+(marginnote)              on input line 728.
+Package marginnote Info: right page because not two side mode on input line 728
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 728.
 
-Overfull \hbox (33.08072pt too wide) in paragraph at lines 689--717
+Overfull \hbox (20.32726pt too wide) in paragraph at lines 689--732
+\EU1/AdobeCaslonPro(0)/m/it/10.95 Hopkins University Engineering News\EU1/Adobe
+CaslonPro(0)/m/n/10.95 , 26 January 2024. [][]https://engineering.jhu.edu/news/
+study-
+ []
+
+
+Overfull \hbox (33.08072pt too wide) in paragraph at lines 689--732
 \EU1/AdobeCaslonPro(0)/m/n/10.95 microbial source”. \EU1/AdobeCaslonPro(0)/m/it
 /10.95 STE Highlights\EU1/AdobeCaslonPro(0)/m/n/10.95 , August 2022. [][]https:
 //www.lanl.gov/science-innovation/science-
  []
 
 
-Overfull \hbox (11.27597pt too wide) in paragraph at lines 689--717
+Overfull \hbox (11.27597pt too wide) in paragraph at lines 689--732
 \EU1/AdobeCaslonPro(0)/m/n/10.95 August 2022. [][]https://int.lanl.gov/news/new
 s_stories/2022/august/0822-mars-methane.shtml[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 689--717
+Underfull \hbox (badness 10000) in paragraph at lines 689--732
 
  []
 
-Package marginnote Info: Margin note 9.6 is on absolute page 9
-(marginnote)              on input line 723.
-Package marginnote Info: right page because not two side mode on input line 723
+Package marginnote Info: Margin note 9.9 is on absolute page 10
+(marginnote)              on input line 738.
+Package marginnote Info: right page because not two side mode on input line 738
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 723.
-Package marginnote Info: Margin note 9.7 is on absolute page 9
-(marginnote)              on input line 724.
-Package marginnote Info: right page because not two side mode on input line 724
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 724.
-Package marginnote Info: Margin note 9.8 is on absolute page 9
-(marginnote)              on input line 725.
-Package marginnote Info: right page because not two side mode on input line 725
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 725.
-Package marginnote Info: Margin note 9.9 is on absolute page 9
-(marginnote)              on input line 726.
-Package marginnote Info: right page because not two side mode on input line 726
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 726.
-Package marginnote Info: Margin note 9.10 is on absolute page 9
-(marginnote)              on input line 727.
-Package marginnote Info: right page because not two side mode on input line 727
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 727.
-Package marginnote Info: Margin note 9.11 is on absolute page 9
-(marginnote)              on input line 728.
-Package marginnote Info: right page because not two side mode on input line 728
-.
-Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 728.
+(marginnote)             \marginnoteleftadjust ignored on input line 738.
 [9]
 Package marginnote Info: Margin note 10.1 is on absolute page 10
-(marginnote)              on input line 765.
-Package marginnote Info: right page because not two side mode on input line 765
+(marginnote)              on input line 739.
+Package marginnote Info: right page because not two side mode on input line 739
 .
 Package marginnote Info: xpos seems to be 108.405pt,
-(marginnote)             \marginnoteleftadjust ignored on input line 765.
+(marginnote)             \marginnoteleftadjust ignored on input line 739.
+Package marginnote Info: Margin note 10.2 is on absolute page 10
+(marginnote)              on input line 740.
+Package marginnote Info: right page because not two side mode on input line 740
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 740.
+Package marginnote Info: Margin note 10.3 is on absolute page 10
+(marginnote)              on input line 741.
+Package marginnote Info: right page because not two side mode on input line 741
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 741.
+Package marginnote Info: Margin note 10.4 is on absolute page 10
+(marginnote)              on input line 742.
+Package marginnote Info: right page because not two side mode on input line 742
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 742.
+Package marginnote Info: Margin note 10.5 is on absolute page 10
+(marginnote)              on input line 743.
+Package marginnote Info: right page because not two side mode on input line 743
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 743.
+Package marginnote Info: Margin note 10.6 is on absolute page 10
+(marginnote)              on input line 780.
+Package marginnote Info: right page because not two side mode on input line 780
+.
+Package marginnote Info: xpos seems to be 108.405pt,
+(marginnote)             \marginnoteleftadjust ignored on input line 780.
 \g__fontspec_family_TimesNewRoman_int=\count156
 .................................................
 . fontspec info: "defining-font"
@@ -1537,20 +1562,24 @@ Package marginnote Info: xpos seems to be 108.405pt,
 . Roman/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 .................................................
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 782.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 797.
  [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 782.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 797.
  (./john_ortiz_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 782.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 782.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 782.
- ) 
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 797.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 797.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 797.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 696 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 22031 strings out of 493591
- 397664 string characters out of 6143546
- 423821 words of memory out of 5000000
- 25230 multiletter control sequences out of 15000+600000
- 7626 words of font info for 71 fonts, out of 8000000 for 9000
+ 22036 strings out of 493591
+ 397841 string characters out of 6143546
+ 423875 words of memory out of 5000000
+ 25234 multiletter control sequences out of 15000+600000
+ 7634 words of font info for 72 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  48i,14n,74p,10353b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
 
