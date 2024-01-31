@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  30 JAN 2024 14:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  31 JAN 2024 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1084,158 +1084,180 @@ Package marginnote Info: Margin note 9.3 is on absolute page 9 on input line 68
 Package marginnote Info: right page because not two side mode on input line 685
 .
 Package marginnote Info: xpos seems to be 108.405pt on input line 685.
-Package marginnote Info: Margin note 9.4 is on absolute page 9 on input line 68
-9.
-Package marginnote Info: right page because not two side mode on input line 689
+Package marginnote Info: Margin note 9.4 is on absolute page 9 on input line 69
+0.
+Package marginnote Info: right page because not two side mode on input line 690
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 689.
+Package marginnote Info: xpos seems to be 108.405pt on input line 690.
 Package marginnote Info: Margin note 9.5 is on absolute page 9 on input line 69
-2.
-Package marginnote Info: right page because not two side mode on input line 692
+5.
+Package marginnote Info: right page because not two side mode on input line 695
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 692.
+Package marginnote Info: xpos seems to be 108.405pt on input line 695.
 Package marginnote Info: Margin note 9.6 is on absolute page 9 on input line 69
-7.
-Package marginnote Info: right page because not two side mode on input line 697
+9.
+Package marginnote Info: right page because not two side mode on input line 699
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 697.
+Package marginnote Info: xpos seems to be 108.405pt on input line 699.
 Package marginnote Info: Margin note 9.7 is on absolute page 9 on input line 70
 3.
 Package marginnote Info: right page because not two side mode on input line 703
 .
 Package marginnote Info: xpos seems to be 108.405pt on input line 703.
 Package marginnote Info: Margin note 9.8 is on absolute page 9 on input line 70
-9.
-Package marginnote Info: right page because not two side mode on input line 709
+8.
+Package marginnote Info: right page because not two side mode on input line 708
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 709.
+Package marginnote Info: xpos seems to be 108.405pt on input line 708.
 Package marginnote Info: Margin note 9.9 is on absolute page 9 on input line 71
-5.
-Package marginnote Info: right page because not two side mode on input line 715
+4.
+Package marginnote Info: right page because not two side mode on input line 714
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 715.
+Package marginnote Info: xpos seems to be 108.405pt on input line 714.
+Package marginnote Info: Margin note 9.10 is on absolute page 9 on input line 7
+18.
+Package marginnote Info: right page because not two side mode on input line 718
+.
+Package marginnote Info: xpos seems to be 108.405pt on input line 718.
+Package marginnote Info: Margin note 9.11 is on absolute page 9 on input line 7
+24.
+Package marginnote Info: right page because not two side mode on input line 724
+.
+Package marginnote Info: xpos seems to be 108.405pt on input line 724.
+Package marginnote Info: Margin note 9.12 is on absolute page 9 on input line 7
+30.
+Package marginnote Info: right page because not two side mode on input line 730
+.
+Package marginnote Info: xpos seems to be 108.405pt on input line 730.
 
-Overfull \hbox (20.32726pt too wide) in paragraph at lines 672--719
+Overfull \hbox (20.32726pt too wide) in paragraph at lines 672--734
 \TU/AdobeCaslonPro(0)/m/it/10.95 Hopkins University Engineering News\TU/AdobeCa
 slonPro(0)/m/n/10.95 , 26 January 2024. [][]https://engineering.jhu.edu/news/st
 udy-
  []
 
 
-Overfull \hbox (33.08072pt too wide) in paragraph at lines 672--719
+Overfull \hbox (7.60406pt too wide) in paragraph at lines 672--734
+\TU/AdobeCaslonPro(0)/m/n/10.95 2024. [][]https://www.universetoday.com/165470/
+atmosphere-pressure-changes-could-explain-
+ []
+
+
+Overfull \hbox (33.08072pt too wide) in paragraph at lines 672--734
 \TU/AdobeCaslonPro(0)/m/n/10.95 microbial source”. \TU/AdobeCaslonPro(0)/m/it/1
 0.95 STE Highlights\TU/AdobeCaslonPro(0)/m/n/10.95 , August 2022. [][]https://w
 ww.lanl.gov/science-innovation/science-
  []
 
 
-Overfull \hbox (11.27597pt too wide) in paragraph at lines 672--719
+Overfull \hbox (11.27597pt too wide) in paragraph at lines 672--734
 \TU/AdobeCaslonPro(0)/m/n/10.95 August 2022. [][]https://int.lanl.gov/news/news
 _stories/2022/august/0822-mars-methane.shtml[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--719
+Underfull \hbox (badness 10000) in paragraph at lines 672--734
 
  []
 
-Package marginnote Info: Margin note 9.10 is on absolute page 9 on input line 7
-25.
-Package marginnote Info: right page because not two side mode on input line 725
-.
-Package marginnote Info: xpos seems to be 108.405pt on input line 725.
-Package marginnote Info: Margin note 9.11 is on absolute page 9 on input line 7
-28.
-Package marginnote Info: right page because not two side mode on input line 728
-.
-Package marginnote Info: xpos seems to be 108.405pt on input line 728.
-Package marginnote Info: Margin note 9.12 is on absolute page 9 on input line 7
-32.
-Package marginnote Info: right page because not two side mode on input line 732
-.
-Package marginnote Info: xpos seems to be 108.405pt on input line 732.
 Package marginnote Info: Margin note 9.13 is on absolute page 9 on input line 7
-35.
-Package marginnote Info: right page because not two side mode on input line 735
+40.
+Package marginnote Info: right page because not two side mode on input line 740
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 735.
+Package marginnote Info: xpos seems to be 108.405pt on input line 740.
 Package marginnote Info: Margin note 9.14 is on absolute page 9 on input line 7
-38.
-Package marginnote Info: right page because not two side mode on input line 738
+43.
+Package marginnote Info: right page because not two side mode on input line 743
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 738.
+Package marginnote Info: xpos seems to be 108.405pt on input line 743.
 Package marginnote Info: Margin note 9.15 is on absolute page 10 on input line 
-742.
-Package marginnote Info: right page because not two side mode on input line 742
-.
-Package marginnote Info: xpos seems to be 108.405pt on input line 742.
-Package marginnote Info: Margin note 9.16 is on absolute page 10 on input line 
-744.
-Package marginnote Info: right page because not two side mode on input line 744
-.
-Package marginnote Info: xpos seems to be 108.405pt on input line 744.
-Package marginnote Info: Margin note 9.17 is on absolute page 10 on input line 
 747.
 Package marginnote Info: right page because not two side mode on input line 747
 .
 Package marginnote Info: xpos seems to be 108.405pt on input line 747.
-Package marginnote Info: Margin note 9.18 is on absolute page 10 on input line 
+Package marginnote Info: Margin note 9.16 is on absolute page 10 on input line 
 750.
 Package marginnote Info: right page because not two side mode on input line 750
 .
 Package marginnote Info: xpos seems to be 108.405pt on input line 750.
+Package marginnote Info: Margin note 9.17 is on absolute page 10 on input line 
+753.
+Package marginnote Info: right page because not two side mode on input line 753
+.
+Package marginnote Info: xpos seems to be 108.405pt on input line 753.
+Package marginnote Info: Margin note 9.18 is on absolute page 10 on input line 
+757.
+Package marginnote Info: right page because not two side mode on input line 757
+.
+Package marginnote Info: xpos seems to be 108.405pt on input line 757.
+Package marginnote Info: Margin note 9.19 is on absolute page 10 on input line 
+759.
+Package marginnote Info: right page because not two side mode on input line 759
+.
+Package marginnote Info: xpos seems to be 108.405pt on input line 759.
+Package marginnote Info: Margin note 9.20 is on absolute page 10 on input line 
+762.
+Package marginnote Info: right page because not two side mode on input line 762
+.
+Package marginnote Info: xpos seems to be 108.405pt on input line 762.
+Package marginnote Info: Margin note 9.21 is on absolute page 10 on input line 
+765.
+Package marginnote Info: right page because not two side mode on input line 765
+.
+Package marginnote Info: xpos seems to be 108.405pt on input line 765.
 
-Overfull \hbox (2.56058pt too wide) in paragraph at lines 725--753
+Overfull \hbox (2.56058pt too wide) in paragraph at lines 740--768
 |[]\TU/AdobeCaslonPro(0)/m/n/10.95 “NROMM Seepage Tool: recent capability devel
 opment and analytical verification”, LANL,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 725--753
+Underfull \hbox (badness 10000) in paragraph at lines 740--768
 
  []
 
 [9]
 Package marginnote Info: Margin note 10.1 is on absolute page 10 on input line 
-760.
-Package marginnote Info: right page because not two side mode on input line 760
+775.
+Package marginnote Info: right page because not two side mode on input line 775
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 760.
+Package marginnote Info: xpos seems to be 108.405pt on input line 775.
 Package marginnote Info: Margin note 10.2 is on absolute page 10 on input line 
-761.
-Package marginnote Info: right page because not two side mode on input line 761
+776.
+Package marginnote Info: right page because not two side mode on input line 776
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 761.
+Package marginnote Info: xpos seems to be 108.405pt on input line 776.
 Package marginnote Info: Margin note 10.3 is on absolute page 10 on input line 
-762.
-Package marginnote Info: right page because not two side mode on input line 762
+777.
+Package marginnote Info: right page because not two side mode on input line 777
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 762.
+Package marginnote Info: xpos seems to be 108.405pt on input line 777.
 Package marginnote Info: Margin note 10.4 is on absolute page 10 on input line 
-763.
-Package marginnote Info: right page because not two side mode on input line 763
+778.
+Package marginnote Info: right page because not two side mode on input line 778
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 763.
+Package marginnote Info: xpos seems to be 108.405pt on input line 778.
 Package marginnote Info: Margin note 10.5 is on absolute page 10 on input line 
-764.
-Package marginnote Info: right page because not two side mode on input line 764
+779.
+Package marginnote Info: right page because not two side mode on input line 779
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 764.
+Package marginnote Info: xpos seems to be 108.405pt on input line 779.
 Package marginnote Info: Margin note 10.6 is on absolute page 10 on input line 
-765.
-Package marginnote Info: right page because not two side mode on input line 765
+780.
+Package marginnote Info: right page because not two side mode on input line 780
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 765.
+Package marginnote Info: xpos seems to be 108.405pt on input line 780.
 Package marginnote Info: Margin note 10.7 is on absolute page 10 on input line 
-804.
-Package marginnote Info: right page because not two side mode on input line 804
+819.
+Package marginnote Info: right page because not two side mode on input line 819
 .
-Package marginnote Info: xpos seems to be 108.405pt on input line 804.
+Package marginnote Info: xpos seems to be 108.405pt on input line 819.
 Package marginnote Info: Margin note 10.8 is on absolute page 10 on input line 
-810.
-Package marginnote Info: right page because not two side mode on input line 810
+825.
+Package marginnote Info: right page because not two side mode on input line 825
 .
-Package marginnote Info: xpos seems to be 111.1863pt on input line 810.
+Package marginnote Info: xpos seems to be 111.1863pt on input line 825.
+ [10]
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             New Roman' with options [Mapping=tex-text].
@@ -1257,27 +1279,27 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 829.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 829.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 844.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 844.
  (./john_ortiz_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 829.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 829.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 844.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 844.
 Package rerunfilecheck Info: File `john_ortiz_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 829.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 844.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 679 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15609 strings out of 479418
- 287721 string characters out of 5884586
- 592145 words of memory out of 5000000
- 32873 multiletter control sequences out of 15000+600000
+ 15612 strings out of 479418
+ 287757 string characters out of 5884586
+ 592196 words of memory out of 5000000
+ 32876 multiletter control sequences out of 15000+600000
  536468 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  54i,14n,100p,295b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on john_ortiz_cv.xdv (10 pages, 302788 bytes).
+Output written on john_ortiz_cv.xdv (11 pages, 309456 bytes).
