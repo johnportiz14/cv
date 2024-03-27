@@ -90,6 +90,10 @@
 % NICE 1st, 2nd, formatting 
 \usepackage[super]{nth}
 
+% Load commands with citation data output from ``get_scholar_stats.py`` script
+% (citations.tex)
+\input{citations}
+
 %-----------------------------------------------------------------------------------
 
 % DOCUMENT
@@ -604,7 +608,8 @@ academic study).
 \label{sec:pubs}  %label for linking to sections
 \setlength{\parskip}{0pt}
 % h-index: 7 (as of February 2024)
-h-index: 7 (as of \today) 
+% h-index: 7 (as of \today) 
+h-index: \cithindex \ (as of \citdate)
 
 % \subsection*{Preprints}
 % \noindent
