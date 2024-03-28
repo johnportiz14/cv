@@ -98,8 +98,8 @@
 
 % DOCUMENT
 \begin{document}
-{\LARGE John P. Ortiz} %\\[1cm]
-%{\Huge John P. Ortiz} %\\[1cm]
+% {\LARGE John P. Ortiz} %\\[1cm]
+{\Huge John P. Ortiz} %\\[1cm]
 %\vfill
 
 %% centered info with double line underneath
@@ -205,7 +205,7 @@
 \section*{Planetary Exploration Mission Experience}
 \label{sec:missions}  %label for linking to sections
 \noindent
-\years{2023}TLS-SAM Experiment Proposal, Co-author
+\years{2023}NASA TLS-SAM Experiment Proposal, Co-author
 
     Co-authored proposal with members of TLS-SAM (Tunable Laser Spectrometer
     within the Sample Analysis at Mars) team proposing strategic timing of
@@ -262,8 +262,10 @@
 
     Going above and beyond the call of duty under tight and/or emergency
     deadlines to finish a project deliverable in the form of a software package
-    that rapidly predicts fractured rock gas transport to the earth's surface.
-    Software was delivered to AFTAC (Air Force Technical Applications Center).
+    that rapidly predicts underground nuclear explosion (UNE) subsurface
+    fractured-rock gas tracer transport arrival times and detection windows to
+    the earth's surface. Software was delivered to AFTAC (Air Force Technical
+    Applications Center).
 % \end{adjustwidth}
 
 %--------------------------RESEARCH GRANTS------------------------------
@@ -274,32 +276,29 @@
 to graduate student status, but on which I was the lead writer and researcher.}\\
 
 \years{2021}\textsc{*CSES Student Fellowship, Planetary Science}
-% \begin{adjustwidth}{5pt}{0pt}
 
-	In-depth 3-year investigation of subsurface methane transport in fractured rock
-	environments on Mars. Multiple methane transport and release mechanisms 
-	will be considered in addition to more accurate atmospheric forcing
-	provided through subsurface-atmosphere coupling of \textsc{FEHM} subsurface
-	simulator and \textsc{MarsWRF} general circulation model. 
-	PI: Phil Stauffer (LANL). Co-Is: Roger Wiens (LANL), Harihar Rajaram (JHU),
-	Kevin Lewis (JHU), Anthony Toigo (JHU-APL). Total: \$190k (\$126k).\\
-% \end{adjustwidth}
+    In-depth 3-year investigation of subsurface methane transport in fractured
+    rock environments on Mars. Multiple gas-phase methane transport and release
+    mechanisms were be considered in addition to more accurate prediction of
+    atmospheric methane concentrations through subsurface-atmosphere coupling
+    of \textsc{FEHM} subsurface flow \& transport simulator and an atmospheric mixing model
+    implemented in Python.
+    PI: Phil Stauffer (LANL); Student Fellow: John Ortiz (JHU-LANL); Co-Is:
+    Roger Wiens (LANL), Harihar Rajaram (JHU), Kevin Lewis (JHU), Anthony Toigo
+    (JHU-APL). Total: \$190k (\$126k).\\
 
 \years{2021}\textsc{New Mexico Small Business Assistance (NMSBA) Program}
-% \begin{adjustwidth}{5pt}{0pt}
 
-	Provided the client/small-business owner detailed workflow for analyzing
-	natural fluctuations in water levels in wells in order to determine aquifer
-	properties. The workflow is covered in a ~150-page user guide that provides
-	detailed instructions for using several pre-existing, Open-source programs
-	to perform the analysis. The workflow will allow the client to quickly and
-	cheaply calculate aquifer properties as an alternative to performing
-	expensive well pump tests.
+    Provided client/small-business owner a detailed workflow for analyzing
+    natural fluctuations in water levels in wells due to solid-earth body tides
+    in order to determine aquifer properties. The workflow is covered in a
+    $\sim$150-page user guide that provides detailed instructions for using
+    several pre-existing, Open-source programs to perform the analysis. The
+    workflow allows the client to quickly and cheaply calculate aquifer
+    properties as an alternative to performing expensive well pump tests.
 	PI: Phil Stauffer (LANL). Total: \$17k (\$15k). \\
-% \end{adjustwidth}
 
 \years{2020}\textsc{New Mexico Small Business Assistance (NMSBA) Program}
-% \begin{adjustwidth}{5pt}{0pt}
 
 	Seed funding to pursue preliminary work in tidal analysis for a client who
 	owns a small environmental consulting firm. By analyzing water levels in
@@ -310,18 +309,15 @@ to graduate student status, but on which I was the lead writer and researcher.}\
 	highlighting a path toward a workflow that could eventually be used by the
 	client.   
 	PI: Phil Stauffer (LANL). Total: \$17k (\$15k). \\
-% \end{adjustwidth}
 
 \years{2020}\textsc{*CSES Rapid Response Research \& Development Grant, Planetary
 Science}
-% \begin{adjustwidth}{5pt}{0pt}
 
 	Seed funding for preliminary work and proof-of-concept results of
-	subsurface methane transport in fractured rock environments on Mars
+	subsurface methane gas transport in fractured-rock environments on Mars
 	influenced by periodic barometric pressure variations.
-	PI: Dylan Harp (LANL). Co-Is: Roger Wiens (LANL), Harihar Rajaram (JHU),
-	Kevin Lewis (JHU). Total: \$30k (\$24.7k). %\$30k to PI Harp.
-% \end{adjustwidth}
+    PI: Dylan Harp (LANL); Student: John Ortiz (JHU-LANL); Co-Is: Roger Wiens
+    (LANL), Harihar Rajaram (JHU), Kevin Lewis (JHU). Total: \$30k (\$24.7k).
 
 
 %-----------------------RESEARCH EXPERIENCE---------------------------
@@ -334,34 +330,52 @@ Science}
     \vspace{3pt} \noindent  
     Wrote two successfully-funded LDRD CSES Planetary Science grants (see
     \hyperref[sec:funding]{Research Funding}) to pursue work modeling
-    subsurface methane transport at Gale crater, Mars at 70\% FTE for three
-    years. Key outcomes were two published first-authored journal articles and
-    co-authorship of a NASA proposal with the TLS-SAM Team for multiple
-    atmospheric sampling experiments to be performed by the MSL
+    subsurface methane transport in fractured rock at Gale crater, Mars at 70\%
+    FTE for three years. Key outcomes were two published first-authored journal
+    articles and co-authorship of a NASA proposal with the TLS-SAM Team for
+    multiple atmospheric sampling experiments to be performed by the MSL
     \textit{Curiosity} rover, forging new ties between NASA and LANL (see
-    \hyperref[sec:missions]{Planetary Exploration Mission Experience} and
-    \hyperref[sec:funding]{Research Funding}).
+        \hyperref[sec:missions]{Planetary Exploration Mission Experience} and
+    \hyperref[sec:funding]{Research Funding}). Additional outcomes include
+    release of the Mars-specific branch of FEHM (\textsc{FEHM-Mars};
+    \href{https://doi.org/10.5281/zenodo.10455952}{https://doi.org/10.5281/zenodo.10455952})
+    that feature code modifications to adapt to martian conditions (e.g.,
+    reduced gravity, equation-of-state modifications consistent with Mars
+    atmospheric ``air'') and a capability allowing users to specify time-varying
+    distribution coefficients for tracer adsorption problems related to temperature
+    changes.
+
+    Collaborated with experimentalists in EES-14 and EES-16 to develop reactive
+    gas transport models to determine transport properties of noble gases in
+    variably saturated zeolitic and non-zeolitic rocks based on novel data from
+    bench-scale diffusion experiments. Augmented reactive transport
+    capabilities of FEHM by developing a new dual-site, competitive kinetic
+    adsorption model to interrogate counter-intuitive radionuclide gas
+    transport experimental results in zeolitic rocks. This work will improve
+    gas tracer signal interpretation related to historical UNE test data and
+    inform field-scale transport models.
 
     Carried out programmatic work for government sponsors related to detecting
     and verifying underground nuclear explosion (UNE) tests. Performed pressure
     and gas transport predictions to support Low Yield Nuclear Monitoring
-    (LYNM) program. Developed new reactive transport capability into FEHM to
-    interrogate counter-intuitive radionuclide gas transport experimental
-    results in zeolitic rock to improve signal interpretation related to
-    historical UNE test data. Was also the lead developer Numerical Reduced
-    Order Multiphase Model (NROMM) software package for rapid prediction of gas
+    (LYNM) program.  Was also the lead developer Numerical Reduced Order
+    Multiphase Model (NROMM) software package for rapid prediction of gas
     seepage times, which was developed for AFTAC (Air Force Technical
     Applications Center) as part of a Trailblazer project (see
-        \hyperref[sec:awards]{Honors \& Awards}). Conducted training for end users of 
-        NROMM to members of the \nth{21} Surveillance Squadron of AFTAC  (see
-        \hyperref[sec:workshopsFacilitated]{Workshops Facilitated}). 
+    \hyperref[sec:awards]{Honors \& Awards}). The NROMM tool is a Python
+    wrapper for FEHM that allows the user to use a simple, readable input file
+    to run flow \& transport UNE simulations with reactive tracers while
+    handling meshing, initialization calculations, radioactive decay, and
+    post-processing. Led a training workshop for end users of NROMM to members of
+    the \nth{21} Surveillance Squadron of AFTAC  (see
+    \hyperref[sec:workshopsFacilitated]{Workshops Facilitated}). 
 
-	Lead a NMSBA (New Mexico Small Business Assistance;
+	Led a NMSBA (New Mexico Small Business Assistance;
 	\href{https://www.nmsbaprogram.org/}{https://www.nmsbaprogram.org/})
-	project (2021-24) to help a small environmental consulting firm reduce
+	project (2021-24) to help a small environmental consulting firm dramatically reduce
 	costs associated with interpreting aquifer hydrogeologic properties from
 	well data.  Demonstrated the use of frequency domain analysis and
-	solid-Earth tidal loading to estimate hydrogeologic properties without the
+	solid-earth tidal loading to estimate hydrogeologic properties without the
 	need for expensive pump tests. \\
 
 \noindent
@@ -372,15 +386,23 @@ Science}
 	Lead developer of the Numerical Reduced Order Multiphase Model (NROMM)
 	software package for rapid prediction of gas seepage times. Software
 	application was developed for use on multiple platforms
-	(Windows/Linux/MacOS).
+	(Windows/Linux/MacOS) and was delivered to AFTAC.
 
 	Developed numerical approaches for detecting and verifying underground
-	nuclear explosion (UNE) tests. Projects includes simulating
+	nuclear explosion (UNE) tests. Projects included simulating
 	radionuclide gas transport in fractured geologic media using finite-element
 	method (FEM) and control volume finite-element (CVFEM) numerical models,
 	simulating high-pressure methane injection into shale samples to inform
 	laboratory investigations, and determining laboratory- and field-scale
 	transport properties of rocks using models and tracer experiments.
+
+    Developed a workflow for coupling discrete fractures generated in
+    \textsc{dfnWorks} with a 3-D continuum mesh as a means of improving
+    computational efficiency of flow and transport simulations related to UNEs.
+    Developed and performed a suite of flow and transport verification tests
+    using FEHM. Such model frameworks are useful for representing scenarios
+    where the 3-D rock matrix or spherical cavity must be explicitly
+    represented and coupled to planar fracture features.
 
     Contributed to development of the Amanzi-ATS high performance computing
     (HPC) flow \& transport simulator to meet the Nuclear Quality Assurance-1
@@ -398,42 +420,45 @@ Science}
 \textit{Earth and Environmental Sciences Department, NMT}
 
     \vspace{3pt} \noindent  
-	Created transient 3D finite-difference (FDM) models in MODFLOW to analyze
-	fluid-fault interactions pertaining to a suite of basal reservoir
-	injection scenarios. Also developed transient 2D cross-sectional FDM
-	models in MATLAB to test fluid-fault interactions for crystalline basement
-	fault zones exhibiting local, dynamically enhanced permeability caused by
-	excess fluid pressures. In my work, I developed new approaches for
-	representing fault zones with multiple architectural components and
-	identified several key hydrogeologic parameters that control deep
-	propagation of the fluid pressure envelope and thus present increased risk
-	of induced seismic events.
+    Created transient 3-D finite-difference (FDM) models in MODFLOW to analyze
+    induced seismicity risk resulting from fluid-fault interactions associated
+    with a suite of basal reservoir injection scenarios. Also developed
+    transient 2-D cross-sectional FDM models in MATLAB to test fluid-fault
+    interactions for crystalline basement fault zones exhibiting local,
+    dynamically enhanced permeability caused by excess fluid pressures. 
+    Developed new approaches for representing fault zones with multiple
+    architectural components and identified several key hydrogeologic
+    parameters that control deep propagation of the fluid pressure envelope and
+    thus present increased risk of induced or triggered seismic events.
 
 	Collaborated on an NSF-funded (via NM EPSCoR) field project deploying
-	subsurface field survey equipment (transverse electromagnetics [TEM],
+	subsurface geophysical field survey equipment (transverse electromagnetics [TEM],
 	magnetotellurics [MT]) for interpretation of deep saline geothermal flow
 	regimes in order to evaluate potential hydrothermal systems in southern New
 	Mexico.\\
 
 \noindent
-\years{2013}\textsc{Research Intern}\\
+\years{2013}\textsc{REU Research Intern}\\
 \textit{College of Earth, Ocean, and Atmospheric Sciences, Oregon State University}
 
     \vspace{3pt} \noindent  
-	Completed an NSF-funded Research Experience for Undergraduates (REU)
-	internship on coastal processes by collecting and interpolating nearshore
-	topographic and bathymetric data to extract key spatial and temporal
-	metrics using MATLAB. Determined rates of longshore-uniform sandbar
-	migration cycles along the Oregon and Washington coasts representing a huge
-	component of seasonal coastal sediment flux.\\
+    Completed an NSF-funded Research Experience for Undergraduates (REU)
+    internship on coastal processes by collecting and interpolating nearshore
+    topographic and bathymetric data to extract key spatial and temporal
+    morphology metrics using MATLAB. Collected nearshore single-beam bathymetry
+    data using jet skis. Determined rates of longshore-uniform sandbar
+    migration cycles along the Oregon and Washington coasts representing a huge
+    component of seasonal coastal sediment flux.\\
 
 \noindent
 \years{2013}\textsc{Research Intern}\\
 \textit{United States Army Corps of Engineers Field Research Facility, Duck NC}
 
     \vspace{3pt} \noindent  
-	Studied coastal evolution and erosion by collecting and processing LiDAR
-	observations during and after storm surges.
+    Supported active coastal evolution and erosion research by collecting and
+    processing LiDAR observations during and after storm surges using both
+    beach-based and amphibious vehicles (LARC-V; Lighter Amphibious Resupply
+    Cargo 5-ton).
 
 	Created a paleo-hurricane record of St. Croix by performing grain-size
 	analysis on sediment cores combined with charcoal carbon dating.
@@ -448,9 +473,13 @@ Science}
 \noindent
 \years{2021}\textsc{NROMM Demo and Training for AFTAC}%\\
 
-    Led a training and software demonstration for members of the AFTAC 
+    Led a training workshop and software demonstration for members of the AFTAC 
     \nth{21} Surveillance Squadron on use of the
     NROMM software package (see \hyperref[sec:awards]{Honors \& Awards}). 
+    The NROMM tool is a Python wrapper for FEHM that allows the user to use a
+    simple, readable input file to run flow \& transport UNE simulations with
+    reactive tracers while handling meshing, initialization calculations,
+    radioactive decay, and post-processing.
 
 \subsection*{Relevant Shortcourses}
 \label{sec:shortcourses}
@@ -485,117 +514,134 @@ Science}
 \setlength{\parskip}{5pt}
 \subsection*{Programming/command languages}
 \noindent
-\textbf{\textsc{Python}} -- High proficiency in designing and executing sensitivity
-analyses of FEHM and PFLOTRAN numerical models and generating nodal grids for
-finite-element meshes. Have also developed a standalone software application
-for real-time predictions of gas breakthrough for use on Windows, Linux, and
-MacOS platforms.
-
-\textbf{\textsc{Matlab}} -- High proficiency in writing scripts for data processing and
-developing a variety of iterative/numerical models to solve hydrogeologic
-environmental problems.
+\textbf{\textsc{Python}} -- Advanced proficiency. Designing and executing 
+sensitivity analyses of FEHM and PFLOTRAN numerical models. Developed a
+workflow for generating stochastic discrete fracture networks (DFNs) embedded
+in rock matrix via upscaling of properties to given mesh dimensions, compatible
+with FEHM and PFLOTRAN mesh and material files. Developed an atmospheric mixing
+model governed by eddy diffusivity within the planetary boundary layer (PBL)
+using a backward Euler finite-difference method scheme and coupled it to gas
+tracer fluxes produced by FEHM simulations. Developed a standalone software
+application for real-time predictions of gas breakthrough for use on Windows,
+Linux, and MacOS platforms.
 
 \textbf{\textsc{Fortran}} -- Intermediate proficiency in augmenting current and legacy flow
 and transport codes (e.g., \textsc{FEHM}). Added reactive transport capability
-allowing for competitive kinetic adsorption between multiple tracer species.
-Maintainer of a Mars-specific branch of \textsc{FEHM} (\textsc{FEHM-Mars};
+allowing for competitive kinetic adsorption between multiple tracer species to multiple types of adsorbent loading sites.
+Developer and maintainer of a Mars-specific branch of \textsc{FEHM} (\textsc{FEHM-Mars};
 \href{https://doi.org/10.5281/zenodo.10455952}{https://doi.org/10.5281/zenodo.10455952})
 that features code modifications to adapt to martian conditions (e.g., reduced
 gravity, equation-of-state modifications for Mars ``air'') and a capability
 allowing users to specify time-varying distribution coefficients for tracer
-adsorption problems.
+adsorption problems related to temperature changes.
 
-\textbf{\textsc{R}} -- Intermediate proficiency in building a variety of statistical models
-to interpret and synthesize climatic, hydrologic, geochemical, and
-environmental data. Collaborated on statewide New Mexico water budget research
-project predicting reference evapotranspiration using different statistical
-models on a wide range remote sensing parameters.
+\textbf{\textsc{Matlab}} -- Advanced proficiency in writing scripts for data processing and
+developing a variety of iterative/numerical models to solve hydrogeologic
+environmental problems.
 
-\textbf{\LaTeX} -- High proficiency in typesetting/document preparation of technical and
+\textbf{\textsc{R}} -- Intermediate proficiency in building a variety of
+statistical and machine learning models to interpret and synthesize climatic,
+hydrologic, geochemical, and environmental data. Collaborated on statewide New
+Mexico water budget research project predicting reference evapotranspiration
+using different statistical models on a wide range remote sensing parameters.
+
+\textbf{\LaTeX} -- Advanced proficiency in typesetting/document preparation of technical and
 scientific documentation.
 
 \textbf{\textsc{Bash/shell}}
 
+
 \subsection*{Software, codes}
 \noindent
-\textbf{\textsc{Fehm}} -- High proficiency in creating multi-phase fluid flow simulations
-with mass transport. Created test suites comparing vapor tracer transport
-within a fracture with matrix diffusion to an analytical solution governed by a
-modified Richard's equation for unsaturated flow (with immobile liquid phase)
-in order to test when multi-phase flow significantly affects gas tracer
-transport. \href{https://github.com/lanl/FEHM}{github.com/lanl/FEHM}
+\textbf{\textsc{Fehm}} -- Expert proficiency in creating multi-phase fluid
+flow simulations with mass transport. Created test suites comparing vapor
+tracer transport within a fracture with matrix diffusion to an analytical
+solution governed by a modified Richard's equation for unsaturated flow (with
+immobile liquid phase) in order to test when multi-phase flow significantly
+affects gas tracer transport.
+\href{https://github.com/lanl/FEHM}{github.com/lanl/FEHM}. Maintainer of
+Mars-specific release (\textsc{FEHM-Mars};
+\href{https://doi.org/10.5281/zenodo.10455952}{https://doi.org/10.5281/zenodo.10455952}).
 
-\textbf{\textsc{Pflotran}} -- Intermediate proficiency in creating multi-phase fluid flow
-simulations with mass transport. Created test suites in similar capacity to
-work done with FEHM. Also used in conjunction with FEHM to validate the
-capabilities of discrete fracture networks (DFNs) to simulate flow/transport in
-fractured media under transient conditions.
+\textbf{\textsc{Pflotran}} -- Intermediate proficiency in creating multi-phase
+fluid flow simulations with mass transport. Created test suites in similar
+capacity to work done with FEHM. Also used in conjunction with FEHM to validate
+the capabilities of discrete fracture networks (DFNs) to simulate
+flow \& transport in fractured media under transient conditions.
 \href{https://www.pflotran.org}{www.pflotran.org} 
 
-\textbf{\textsc{LaGriT}} -- Intermediate proficiency in generating numerical
+\textbf{\textsc{LaGriT}} -- Intermediate proficiency. Generating numerical
 finite-element meshes for a variety of geological applications, including
 porous flow and transport modeling and discrete fracture networks. Proficient
 at generating meshes using the 3 interfaces: command line, batch driven via
-control file, and PyLaGrit Python command/batch interface. Have also worked on
-capability development by using novel approaches to combine continuum 3D grids
-with 2D discrete fracture network (DFN) planes into unified meshes for use in
-transient flow and transport models.
+control file, and PyLaGriT Python command/batch interface. Developed workflow
+for translating explosive rock damage models to continuum permeability-damage
+fields in geologic frameworks. Have also worked on capability development by
+using novel approaches to combine continuum 3D grids with 2D discrete fracture
+network (DFN) planes into unified meshes for use in transient flow and
+transport models.
 \href{https://lagrit.lanl.gov/index.shtml}{lagrit.lanl.gov/index.shtml}
 
-\textbf{\textsc{dfnWorks}} -- Intermediate proficiency in generating 3D discrete fracture
-networks (DFN) for simulating flow and transport, including generating
-continuum representations of fractured porous media with octree refinement
-using an upscaled discrete fracture matrix model (UDFM) workflow.
+\textbf{\textsc{dfnWorks}} -- Intermediate proficiency in generating 3D
+discrete fracture networks (DFN) for simulating flow and transport, including
+generating continuum representations of fractured porous media with octree
+refinement using an upscaled discrete fracture matrix model (UDFM) workflow.
 \href{https://dfnworks.lanl.gov}{dfnworks.lanl.gov}
 
-\textbf{\textsc{Modflow}} -- High proficiency in developing 3D transient and steady-state
-FDM models to solve a variety of hydrogeologic problems including fluid-fault
-interactions as related to induced seismicity in thesis work, and basin-scale
-backwards modeling of groundwater solute transport as related to the Kirtland
-Air Force Base spill in Albuquerque, NM.
-
-\textbf{\textsc{OpenFOAM}} -- Intermediate proficiency in developing computational fluid
-dynamics (CFD) simulations of single and multi-phase flow and transport
-simulations in laminar and turbulent regimes.
-
-\textbf{\textsc{SPOTL: Some Programs for Ocean-Tide Loading}} -- Intermediate proficiency in
-computing load tides and strains produced on the solid Earth by both ocean
-tides and solid-Earth body tides.
-% \url{https://igppweb.ucsd.edu/~agnew/Spotl/spotlmain.html}
-\href{https://igppweb.ucsd.edu/~agnew/Spotl/spotlmain.html}{https://igppweb.ucsd.edu/\(\sim \)agnew/Spotl/spotlmain.html}
-
-\textbf{\textsc{Sphinx}} -- High proficiency in generating and maintaining professional
-documentation of software projects as HTML and \LaTeX \ output from
-reStructuredText sources.
-
-\textbf{\textsc{Git}} -- High proficiency in source code management/version control
+\textbf{\textsc{Git}} -- Advanced proficiency in source code management/version control
 in application development and collaborating with colleagues on coding/software
 projects. Have experience maintaining Git repositories as a lead developer as
 well as in a supporting collaborator role.
 
-\textbf{\textsc{ParaView}} -- Intermediate proficiency in interactive scientific
+\textbf{\textsc{ParaView}} -- Advanced proficiency in interactive scientific
 visualization and exploration by representing data in static figures and
 videos. \href{https://www.paraview.org/}{www.paraview.org} 
 
 \textbf{\textsc{GDB (GNU Debugger)}} -- Intermediate proficiency with command line debugging
-tool for current and legacy flow and transport codes.
+tool for current and legacy flow and transport codes written in Fortran and C++.
 
-\textbf{\textsc{Petromod}} -- Intermediate proficiency in creating basin evolution,
-subsidence rate, and heat flow models of petroleum-bearing
-locales.
+\textbf{\textsc{Modflow}} -- Advanced proficiency in developing 3D transient
+and steady-state FDM models to solve a variety of hydrogeologic problems
+including fluid-fault interactions as related to induced seismicity in thesis
+work, and basin-scale backwards modeling of groundwater solute transport as
+related to the Kirtland Air Force Base spill in Albuquerque, NM.
 
-\textbf{\textsc{ArcGIS}} -- Intermediate proficiency in using digital elevation models (DEM)
-to delineate watersheds and create estimates of stream discharge in mountainous
-terrain.
+\textbf{\textsc{OpenFOAM}} -- Intermediate proficiency in developing
+computational fluid dynamics (CFD) simulations of single and multi-phase flow
+and transport simulations in laminar and turbulent regimes.
 
-\textbf{\textsc{Adobe Illustrator}} -- High proficiency in creating and editing
+\textbf{\textsc{SPOTL: Some Programs for Ocean-Tide Loading}} -- Intermediate
+proficiency in computing load tides and strains produced on the solid earth by
+both ocean tides and solid-earth body tides.
+% \url{https://igppweb.ucsd.edu/~agnew/Spotl/spotlmain.html}
+\href{https://igppweb.ucsd.edu/~agnew/Spotl/spotlmain.html}{https://igppweb.ucsd.edu/\(\sim \)agnew/Spotl/spotlmain.html}
+
+\textbf{\textsc{Sphinx}} -- Advanced proficiency in generating and maintaining
+professional documentation of software projects as HTML and \LaTeX \ output
+from reStructuredText sources. Supporting documentation needs various
+collaborative codes (e.g., Amanzi-ATS, NROMM, SlugTide-octave). 
+    % Amanzi-ATS, \href{https://github.com/amanzi/amanzi}{https://github.com/amanzi/amanzi}; 
+    % NROMM, \href{https://gitlab.lanl.gov/jportiz/nromm_user_guide}{https://gitlab.lanl.gov/jportiz/nromm\_user\_guide};
+% SlugTide-octave, \href{https://github.com/johnportiz14/SlugTide-octave}{https://github.com/johnportiz14/SlugTide-octave}).
+
+\textbf{\textsc{Adobe Illustrator}} -- Advanced proficiency in creating and editing
 publication-ready figures and illustrative schematic diagrams and animations.
 
-% \textsc{COMSOL Multiphysics} – Beginner proficiency in modeling contaminant
-% transport in academic coursework.\\[5pt] 
 \textbf{\textsc{Microsoft Excel}} -- Ranked \#7 in the world at the 2008 Microsoft Office
 Worldwide Competition in Hawaii of 56,000 initial entrants
 (www.betheworldchamp.com), Ireland National Champion (of 436 entrants).
+
+% \textsc{COMSOL Multiphysics} – Beginner proficiency in modeling contaminant
+% transport in academic coursework.\\[5pt] 
+% 
+% \textbf{\textsc{Petromod}} -- Intermediate proficiency in creating basin evolution,
+% subsidence rate, and heat flow models of petroleum-bearing
+% locales.
+% 
+% \textbf{\textsc{ArcGIS}} -- Intermediate proficiency in using digital elevation models (DEM)
+% to delineate watersheds and create estimates of stream discharge in mountainous
+% terrain.
+
 
 \subsection*{Other}
 \noindent
@@ -626,13 +672,13 @@ h-index: \cithindex \ (as of \citdate)%\\   % Read from citations.tex file
 
 \noindent
 \hypersetup{linkcolor=black,citecolor=blue,filecolor=black,urlcolor=black} 
-\years{2024}\textbf{Ortiz, J. P.}, Rajaram, H., Stauffer, P. S., Lewis, K. W,
+\textbf{\years{2024}}\textbf{Ortiz, J. P.}, Rajaram, H., Stauffer, P. S., Lewis, K. W,
 Wiens, R. C., Harp, D. R.  Sub-diurnal methane variations on Mars driven by
 barometric pumping and planetary boundary layer evolution.  \emph{Journal of
 Geophysical Research: Planets}. 129, e2023JE008043.\\
 \href{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023JE008043}{doi:10.1029/2023JE008043}.\\ 
 %
-\years{2022}\textbf{Ortiz, J. P.}, Rajaram, H., Stauffer, P. S., Harp, D. R.,
+\textbf{\years{2022}}\textbf{Ortiz, J. P.}, Rajaram, H., Stauffer, P. S., Harp, D. R.,
 Wiens, R. C., Lewis, K. W.  Barometric pumping through fractured rock: a
 mechanism for venting deep methane to Mars' atmosphere.  \emph{Geophysical
 Research Letters}. 
@@ -674,7 +720,7 @@ of dominant gas transport frequencies during barometric pumping of fractured
 rock. \emph{Scientific Reports (Nature Publishing Group)}, 9(1), 9537.
 \href{https://www.nature.com/articles/s41598-019-46023-z.pdf}{doi:10.1038/s41598-019-46023-z}. \\ 
 %
-\years{2019}\textbf{Ortiz, J. P.}, Person,
+\textbf{\years{2019}}\textbf{Ortiz, J. P.}, Person,
 M. A., Mozley, P. S., Evans, J. P., Bilek, S. L. The role of fault-zone
 architectural elements on pore pressure propagation and induced seismicity.
 \emph{Groundwater}, 57(3): 465-478. 
@@ -983,13 +1029,13 @@ Science Café series. 30 November 2017.\\
 \years{April 2024} \textit{Los Alamos Middle School Guest Lecturer}\\
 Scheduled to deliver a series of five presentations over two days on measuring
 atmospheric methane on Mars to several \nth{7} grade classes of Life Sciences
-and Astronomy students at Los Alamos Middle School.  
+and Astronomy students at Los Alamos Middle School. \\ 
 
 \years{April 2023} \textit{Los Alamos Geological Society monthly meeting}\\
 Delivered an invited talk (``The Mars Underground: Characterizing subsurface
 methane seepage on the Red Planet''; see \href{sec:invitedTalks}{Invited
 Talks}) about predicting methane abundance variations at Gale crater, Mars to
-members of the Los Alamos Geological Society for their monthly meeting. 
+members of the Los Alamos Geological Society for their monthly meeting. \\
 
 
 \subsection*{Advisory Roles}\noindent
