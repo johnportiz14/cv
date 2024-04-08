@@ -99,7 +99,8 @@ if __name__=='__main__':
     google_user = "dpngZhIAAAAJ&hl"         # (ME)
     # Today's Date (for 'Last updated'...)
     today = date.today()
-    date = today.strftime('%d %B, %Y')
+    #  date = today.strftime('%d %B, %Y')
+    date = today.strftime('%-d %B, %Y')  # the "minus" removes leading 0 in day number
     # Get stats
     author_results, articles, stats = getAuthorProfileData(google_user)
     # Print out the stats
