@@ -146,10 +146,10 @@ def write_tex(output_filename, author, citations, article_stats, date):
             # Assemble article key
             #  article_key = f"{yyyy}_{pubkey}_{titlekey}"  #<--- can't have numbers in commands
             article_label = f"({yyyy}) {pubkey}_{titlekey}"
-            article_key = f"{pubkey}_{titlekey}"
+            article_key = f"{pubkey}OOOO{titlekey}"  #use OOOO as separator (can't be underscores,etc)
             #  print(article_key);print()
             # Write the label as a comment, followed by the newcommand
-            f.write(f'%%% ARTICLE #[{}]: '+article_label+'\n')
+            f.write(f'%%% ARTICLE #[{counter}]: '+article_label+'\n')
             if num_citations>0:
                 # Text to show in LaTeX CV
                 display_text = f'(Cited by: {num_citations}).'
@@ -201,4 +201,11 @@ if __name__=='__main__':
     print('Writing stats to LaTeX file ({})...'.format(outfile))
     #  write_tex(outfile, 'John P. Ortiz',  stats, articles, date)
     write_tex(outfile, 'John P. Ortiz',  stats, articles_stats, date)
+
+    print()
+    print('******************************')
+    print('NOTE TO JOHN')
+    print('******************************')
+    print();print('Per-article citations seems to stop at 20 because the Google Scholar  page only displays 20 entries by default...')
+
     print('    Done.')
