@@ -6,6 +6,9 @@ import os,sys
 import requests
 from bs4 import BeautifulSoup
 from datetime import date
+from unicodedata import normalize
+import re
+import json
 
 def getAuthorProfileData(scholar_id):
     try:
@@ -22,14 +25,55 @@ def getAuthorProfileData(scholar_id):
         author_results['position'] = soup.select_one("#gsc_prf_inw+ .gsc_prf_il").text
         author_results['email'] = soup.select_one("#gsc_prf_ivh").text
         author_results['departments'] = soup.select_one("#gsc_prf_int").text
+        # Article number for article key to use in latex doc
         for el in soup.select("#gsc_a_b .gsc_a_t"):
+            #  print('**************')
+            #  print('el')
+            #  print('**************')
+            #  print(el)  #DEBUG
             article = {
                 'title': el.select_one(".gsc_a_at").text,
+                'year':int(el.select_one(".gs_gray+ .gs_gray").text[-4:]), #last 4 chars of publication are the year
                 'link': "https://scholar.google.com" + el.select_one(".gsc_a_at")['href'],
                 'authors': el.select_one(".gsc_a_at+ .gs_gray").text,
-                'publication': el.select_one(".gs_gray+ .gs_gray").text
+                'publication': el.select_one(".gs_gray+ .gs_gray").text,
+                'article_cited_by': -999,
             }
+            # Get the number of citations per article
+            # ---- go to individual article page
+            resp = requests.get(article['link'], headers=headers)
+            s = BeautifulSoup(resp.text, 'html.parser')
+            # Covnert to string
+            s_str = str(s)
+            try:
+                art_cit_by = s_str.split("Cited by ",1)[1][:10].replace('"','')
+                # Remove unicode chars
+                art_cit_by_ascii = normalize('NFKD',art_cit_by).encode('ascii','ignore')
+                try:
+                    art_cit_by_num = re.findall(r'\d+', str(art_cit_by_ascii))[0]
+                except:
+                    print('failpoint1')
+                # Add to dictionary for article
+                print('article cite by number: ')
+                print(art_cit_by_num)
+                article['article_cited_by']=int(art_cit_by_num)
+            except IndexError:
+                print('Article ({}...) apparently has no citations!'.format(article['title'][:25]))
+                article['article_cited_by'] = 0
             articles.append(article)
+        # TEMPORARY (for debugging)
+        with open('TEMP_articles.txt','w') as f:
+            json.dump(articles, f)
+        # TEST (Load the saved list of dicts (articles variable)
+        with open('TEMP_articles.txt','r') as g:
+            json_articles = json.load(g)
+        #
+        #---------------------------------------- 
+        # Write Per-article Citation Stats 
+        #---------------------------------------- 
+        #---------------------------------------- 
+        # Write h-index Stats
+        #---------------------------------------- 
         for i in range(len(articles)):
             articles[i] = {k: v for k, v in articles[i].items() if v and v != ""}
         cited_by = {}
@@ -52,10 +96,17 @@ def getAuthorProfileData(scholar_id):
     except Exception as e:
         print(e)
 
+    print()
+    print('END OF get_scholar_Stats()')
+    print('articles: ======')
+    print(articles)
+    input()
+
     return author_results, articles, cited_by['table']
 
 
-def write_tex(output_filename, author, citations, date):
+#  def write_tex(output_filename, author, citations, date):
+def write_tex(output_filename, author, citations, article_stats, date):
     with open(output_filename, 'w') as f:
         write_generic_command(f, 'citdate', date)
         #  write_generic_command(f, 'cittotal', citations['citations'])
@@ -73,6 +124,41 @@ def write_tex(output_filename, author, citations, date):
                 write_generic_command(f, 'cithindex', entry['h_index']['all'])
             elif 'i_index' in entry.keys():
                 write_generic_command(f, 'citiindex', entry['i_index']['all'])
+        # Now add per-article citations statistics
+        f.write('%-------Per-article Citations-------------\n')
+        counter=0
+        for article in article_stats:
+            try:
+                num_citations = article['article_cited_by'] #  if num_citations == 0: num_citations=''
+            except KeyError:
+                num_citations = 0
+            yyyy = article['year']
+            # Create a unique title key to use as command name (should not change)
+            pub=article['publication'][:-4]#.replace(' ','')
+            # Remove non-alpha characters
+            rule = re.compile('[^a-zA-Z]')
+            pubkey=rule.sub('', pub)[:20]
+            #  print(pubkey)
+            # Title
+            title = article['title'].replace(' ','')
+            titlekey = rule.sub('', title)[:20]
+            #  print(titlekey)
+            # Assemble article key
+            #  article_key = f"{yyyy}_{pubkey}_{titlekey}"  #<--- can't have numbers in commands
+            article_label = f"({yyyy}) {pubkey}_{titlekey}"
+            article_key = f"{pubkey}_{titlekey}"
+            #  print(article_key);print()
+            # Write the label as a comment, followed by the newcommand
+            f.write(f'%%% ARTICLE #[{}]: '+article_label+'\n')
+            if num_citations>0:
+                # Text to show in LaTeX CV
+                display_text = f'(Cited by: {num_citations}).'
+            else:
+                display_text = ''
+            write_generic_command(f, article_key, display_text )
+            counter+=1
+
+
 
 def write_generic_command(f, name, value):
     f.write(f'\\newcommand{{\\{name}}}{{{value}}}\n')
@@ -102,7 +188,7 @@ if __name__=='__main__':
     #  date = today.strftime('%d %B, %Y')
     date = today.strftime('%-d %B, %Y')  # the "minus" removes leading 0 in day number
     # Get stats
-    author_results, articles, stats = getAuthorProfileData(google_user)
+    author_results, articles_stats, stats = getAuthorProfileData(google_user)
     # Print out the stats
     for entry in stats:
         print(entry)
@@ -113,5 +199,6 @@ if __name__=='__main__':
     outfile = os.path.join(file_path,'citations.tex')
     print()
     print('Writing stats to LaTeX file ({})...'.format(outfile))
-    write_tex(outfile, 'John P. Ortiz',  stats, date)
+    #  write_tex(outfile, 'John P. Ortiz',  stats, articles, date)
+    write_tex(outfile, 'John P. Ortiz',  stats, articles_stats, date)
     print('    Done.')
