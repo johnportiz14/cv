@@ -100,7 +100,7 @@ def getAuthorProfileData(scholar_id):
     print('END OF get_scholar_Stats()')
     print('articles: ======')
     print(articles)
-    input()
+    #  input()
 
     return author_results, articles, cited_by['table']
 
