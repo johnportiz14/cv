@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 '''
 https://medium.com/@darshankhandelwal12/scrape-google-scholar-using-python-3f35a3a6597b
+
+AND
+
+https://stackoverflow.com/questions/42251392/python-show-results-from-all-pages-not-just-the-first-page-beautiful-soup
+
+(to get around fact that it cuts off at 20 entries per Scholar page). 
 '''
 import os,sys
 import requests
@@ -100,7 +106,7 @@ def getAuthorProfileData(scholar_id):
     print('END OF get_scholar_Stats()')
     print('articles: ======')
     print(articles)
-    input()
+    #  input()
 
     return author_results, articles, cited_by['table']
 
@@ -213,3 +219,4 @@ if __name__=='__main__':
     print()
 
     print('    Done.')
+
