@@ -6,12 +6,19 @@ from datetime import date
 from unicodedata import normalize
 import re
 import json
+import time
 
 # Function to get author profile data with pagination
 def getAuthorProfileData(scholar_id):
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
-    }
+    #  headers = {
+        #  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+    #  }
+    # Rotate user agents or use a session
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"
+    })
+
     author_results = {}
     all_articles = []
     cstart = 0
@@ -19,7 +26,11 @@ def getAuthorProfileData(scholar_id):
     
     while True:
         url = f"https://scholar.google.com/citations?hl=en&user={scholar_id}&cstart={cstart}&pagesize={page_size}"
-        response = requests.get(url, headers=headers)
+        #  response = requests.get(url, headers=headers)
+        response = session.get(url, headers=session.headers)
+        # After each request add a short delay
+        time.sleep(2)  # 2-second delay
+        #
         soup = BeautifulSoup(response.text, 'html.parser')
 
         # Extract author information (only done once, so outside the loop for articles)
@@ -53,7 +64,11 @@ def getAuthorProfileData(scholar_id):
             }
         
             # Get the number of citations by visiting the article page
-            resp = requests.get(article['link'], headers=headers)
+            #  resp = requests.get(article['link'], headers=headers)
+            resp = session.get(article['link'], headers=session.headers)
+            # Add a delay when following article links
+            time.sleep(1.5) # Prevent getting rate-limited
+            #
             s = BeautifulSoup(resp.text, 'html.parser')
             s_str = str(s)
             try:
@@ -133,7 +148,8 @@ if __name__ == '__main__':
     print('Getting Google Scholar stats...\n')
 
     # Google Scholar User ID
-    google_user = "dpngZhIAAAAJ&hl"
+    #  google_user = "dpngZhIAAAAJ&hl"
+    google_user = "dpngZhIAAAAJ"  #removed &hl (already part of full query string)
     today = date.today()
     date_str = today.strftime('%-d %B, %Y')
 
