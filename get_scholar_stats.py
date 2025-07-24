@@ -116,6 +116,7 @@ def getAuthorProfileData(scholar_id):
 
 # Function to write LaTeX commands
 def write_tex(output_filename, author, citations, article_stats, date):
+    commands_used=[] # keep track of all new latex commands used in case there are repeats
     with open(output_filename, 'w') as f:
         write_generic_command(f, 'citdate', date)
         for entry in citations:
@@ -128,13 +129,19 @@ def write_tex(output_filename, author, citations, article_stats, date):
         
         f.write('%-------Per-article Citations-------------\n')
         for counter, article in enumerate(article_stats):
+            #  print(commands_used)
             num_citations = article.get('article_cited_by', 0)
             yyyy = article['year']
             pub = article['publication'][:-4]
             rule = re.compile('[^a-zA-Z]')
             pubkey = rule.sub('', pub)[:20]
             titlekey = rule.sub('', article['title'].replace(' ', ''))[:20]
+            #  article_key = f"{pubkey}OOOO{titlekey}"
             article_key = f"{pubkey}OOOO{titlekey}"
+            if article_key in commands_used:
+                #  print("article_key already in commands used! modifying...")
+                article_key = f"{pubkey}OOOO{titlekey}O"
+            commands_used.append(article_key)
             f.write(f'%%% ARTICLE #[{counter}]: ({yyyy}) {pubkey}_{titlekey}\n')
             display_text = f'(Cited by: {num_citations}).' if num_citations > 0 else ''
             write_generic_command(f, article_key, display_text)
