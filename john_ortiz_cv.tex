@@ -768,155 +768,160 @@ simulations, and barometric pumping.
 \setlength{\parskip}{5pt}
 \subsection*{Programming/command languages}
 \noindent
-\textbf{\textsc{Python}} -- Advanced proficiency. Designed and executed
-sensitivity analyses and parameter optimization algorithms for calibration of transport
-parameters in FEHM and PFLOTRAN numerical simulations. Developed a workflow for
-generating stochastic discrete fracture networks (DFNs) embedded in rock matrix
-via upscaling of properties to given mesh dimensions, compatible with FEHM and
-PFLOTRAN mesh and material files. Developed an atmospheric mixing model
-governed by eddy diffusivity within the planetary boundary layer (PBL) using a
-backward Euler finite-difference method scheme and coupled it to gas tracer
-fluxes produced by FEHM simulations. Developed a standalone software
-application for real-time predictions of gas breakthrough for use on Windows,
-Linux, and MacOS platforms.
 
-\textbf{\textsc{Fortran}} -- Advanced proficiency in using the Fortran
-language to augment current and legacy flow and transport codes (e.g.,
-\textsc{FEHM}) and shock/multiphysics codes (e.g., \textsc{HOSS}). Added
-reactive transport capability allowing for competitive kinetic adsorption
-between multiple tracer species to multiple types of adsorbent loading sites.
-Developer and maintainer of a Mars-specific branch of \textsc{FEHM}
-(\textsc{FEHM-Mars};
-% \href{https://doi.org/10.5281/zenodo.10455952}{https://doi.org/10.5281/zenodo.10455952})
-\href{https://doi.org/10.5281/zenodo.10455952}{10.5281/zenodo.10455952})
-that features code modifications to adapt to martian conditions (e.g., reduced
-gravity, equation-of-state modifications for Mars ``air'') and a capability
-allowing users to specify time-varying distribution coefficients for tracer
-adsorption problems related to temperature changes.
-
-\textbf{\textsc{Matlab}} -- Advanced proficiency in writing scripts for data
-processing and developing a variety of iterative/numerical models to solve
-hydrogeologic environmental problems.
-
-\textbf{\textsc{R}} -- Intermediate proficiency in building a variety of
-statistical and machine learning models to interpret and synthesize hydrologic,
-geochemical, climatic, and environmental data. Collaborated on statewide New
-Mexico water budget research project predicting reference evapotranspiration
-using different statistical models on a wide range remote sensing parameters.
-
-\textbf{\LaTeX} -- Advanced proficiency in typesetting/document preparation of
-technical and scientific documentation.
-
-\textbf{\textsc{Bash/shell}} -- Advanced proficiency in managing independent
-code development environments and automating/batching tasks using command
-line prompts and shell scripts. 
+Python, Fortran, Matlab, R, C++, \LaTeX, Bash/shell
+% \textbf{\textsc{Python}} -- Advanced proficiency. Designed and executed
+% sensitivity analyses and parameter optimization algorithms for calibration of transport
+% parameters in FEHM and PFLOTRAN numerical simulations. Developed a workflow for
+% generating stochastic discrete fracture networks (DFNs) embedded in rock matrix
+% via upscaling of properties to given mesh dimensions, compatible with FEHM and
+% PFLOTRAN mesh and material files. Developed an atmospheric mixing model
+% governed by eddy diffusivity within the planetary boundary layer (PBL) using a
+% backward Euler finite-difference method scheme and coupled it to gas tracer
+% fluxes produced by FEHM simulations. Developed a standalone software
+% application for real-time predictions of gas breakthrough for use on Windows,
+% Linux, and MacOS platforms.
+% 
+% \textbf{\textsc{Fortran}} -- Advanced proficiency in using the Fortran
+% language to augment current and legacy flow and transport codes (e.g.,
+% \textsc{FEHM}) and shock/multiphysics codes (e.g., \textsc{HOSS}). Added
+% reactive transport capability allowing for competitive kinetic adsorption
+% between multiple tracer species to multiple types of adsorbent loading sites.
+% Developer and maintainer of a Mars-specific branch of \textsc{FEHM}
+% (\textsc{FEHM-Mars};
+% % \href{https://doi.org/10.5281/zenodo.10455952}{https://doi.org/10.5281/zenodo.10455952})
+% \href{https://doi.org/10.5281/zenodo.10455952}{10.5281/zenodo.10455952})
+% that features code modifications to adapt to martian conditions (e.g., reduced
+% gravity, equation-of-state modifications for Mars ``air'') and a capability
+% allowing users to specify time-varying distribution coefficients for tracer
+% adsorption problems related to temperature changes.
+% 
+% \textbf{\textsc{Matlab}} -- Advanced proficiency in writing scripts for data
+% processing and developing a variety of iterative/numerical models to solve
+% hydrogeologic environmental problems.
+% 
+% \textbf{\textsc{R}} -- Intermediate proficiency in building a variety of
+% statistical and machine learning models to interpret and synthesize hydrologic,
+% geochemical, climatic, and environmental data. Collaborated on statewide New
+% Mexico water budget research project predicting reference evapotranspiration
+% using different statistical models on a wide range remote sensing parameters.
+% 
+% \textbf{\LaTeX} -- Advanced proficiency in typesetting/document preparation of
+% technical and scientific documentation.
+% 
+% \textbf{\textsc{Bash/shell}} -- Advanced proficiency in managing independent
+% code development environments and automating/batching tasks using command
+% line prompts and shell scripts. 
 
 
 \subsection*{Software, codes}
 \label{sec:software}
 
 \noindent
-\textbf{\textsc{Fehm}} -- Expert proficiency in creating multiphase fluid
-flow simulations with mass transport. Created test suites comparing gas
-tracer transport within a fracture with matrix diffusion to an analytical
-solution governed by a modified Richard's equation for unsaturated flow (with
-immobile liquid phase) in order to test when multiphase flow significantly
-affects gas tracer transport.
-\href{https://github.com/lanl/FEHM}{github.com/lanl/FEHM}. Maintainer of
-Mars-specific release (\textsc{FEHM-Mars};
-\href{https://doi.org/10.5281/zenodo.10455952}{https://doi.org/10.5281/zenodo.10455952}).
+FEHM, PFLOTRAN, HOSS, LaGriT, Cubit, DFNWorks, Git, ParaView, GDB, MODFLOW,
+OpenFOAM, SPOTL, Sphinx, Adobe Illustrator 
 
-\textbf{\textsc{Pflotran}} -- Intermediate proficiency in creating multiphase
-fluid flow simulations with mass transport. Created test suites in similar
-capacity to work done with FEHM. Also used in conjunction with FEHM to validate
-the capabilities of DFNs to simulate
-flow \& transport in fractured media under transient conditions.
-\href{https://www.pflotran.org}{www.pflotran.org} 
-
-\textbf{\textsc{Hoss}} -- Intermediate proficiency in developing high
-strain-rate multiphysics simulations using the Hybrid Optimization Software
-Suite
-(\href{https://www.lanl.gov/engage/organizations/cels/ees-division/scientific-software/hoss}{https://www.lanl.gov/engage/organizations/cels/ees-division/scientific-software/hoss}
-    to investigate hypervelocity comet impacts on Earth and Titan. 
-    % Augmented capability of the HOSS code by implementing the analytical
-    % equation of state (ANEOS) formulation to account for rapid phase changes
-    % under shocked conditions and a greater range of pressure and temperature
-    % conditions.  These code modifications will improve the Lab's capability to
-    % model underground nuclear and chemical explosions taking place under a
-    % wider range of conditions.  
-
-\textbf{\textsc{LaGriT}} -- Intermediate proficiency in generating numerical
-finite-element meshes for a variety of geological applications, including
-porous flow and transport modeling and DFNs. Proficient at generating meshes
-using the 3 interfaces: command line, batch driven via control file, and
-PyLaGriT Python command/batch interface. Developed Python/\textsc{LaGriT}
-workflow for translating explosive rock damage models to continuum
-permeability-damage fields in geologic frameworks. Have also worked on
-capability development by using novel approaches to combine continuum 3D grids
-with 2D DFN planes into unified meshes for use in transient flow and transport
-models.
-\href{https://lagrit.lanl.gov/index.shtml}{lagrit.lanl.gov/index.shtml}
-
-\textbf{\textsc{dfnWorks}} -- Intermediate proficiency in generating 3D
-DFNs for simulating flow and transport, including
-generating continuum representations of fractured porous media with octree
-refinement using an upscaled discrete fracture matrix model (UDFM) workflow.
-\href{https://dfnworks.lanl.gov}{dfnworks.lanl.gov}
-
-\textbf{\textsc{Git}} -- Advanced proficiency in source code management/version control
-in application development and collaborating with colleagues on coding and software
-projects. Have experience maintaining Git repositories as a lead developer as
-well as in a supporting collaborator role.
-
-\textbf{\textsc{ParaView}} -- Advanced proficiency in interactive scientific
-data visualization and exploration by generating static figures and
-animations/videos. \href{https://www.paraview.org/}{www.paraview.org} 
-
-\textbf{\textsc{GDB (GNU Debugger)}} -- Intermediate proficiency with command
-line debugging tool for augmenting current and legacy flow and transport codes
-written in Fortran and C++.
-
-\textbf{\textsc{Modflow}} -- Advanced proficiency in developing 3D transient
-and steady-state FDM models to solve a variety of hydrogeologic problems, 
-including fluid-fault interactions as related to induced seismicity in thesis
-work, and basin-scale backwards modeling of groundwater solute transport as
-related to the Kirtland Air Force Base spill in Albuquerque, NM.
-
-\textbf{\textsc{OpenFOAM}} -- Intermediate proficiency in developing
-computational fluid dynamics (CFD) simulations of single and multiphase flow
-and transport simulations in laminar and turbulent regimes.
-
-\textbf{\textsc{SPOTL: Some Programs for Ocean-Tide Loading}} -- Intermediate
-proficiency in computing load tides and strains produced on the solid earth by
-both ocean tides and solid-earth body tides.
-% \url{https://igppweb.ucsd.edu/~agnew/Spotl/spotlmain.html}
-\href{https://igppweb.ucsd.edu/~agnew/Spotl/spotlmain.html}{https://igppweb.ucsd.edu/\(\sim \)agnew/Spotl/spotlmain.html}
-
-\textbf{\textsc{Sphinx}} -- Advanced proficiency in generating and maintaining
-professional documentation of software projects as HTML and \LaTeX \ output
-from reStructuredText sources. Have supported documentation needs of various
-collaborative code projects %(e.g., Amanzi-ATS, NROMM, SlugTide-octave). 
-(e.g., \href{https://github.com/amanzi/amanzi}{Amanzi-ATS},
-\href{https://gitlab.lanl.gov/jportiz/nromm_user_guide}{NROMM}, and
-\href{https://github.com/johnportiz14/SlugTide-octave}{SlugTide-octave}).
-
-\textbf{\textsc{Adobe Illustrator}} -- Advanced proficiency in creating and editing
-publication-ready figures and illustrative schematic diagrams and animations for use in peer-reviewed journal articles and conference presentations.
-
-\textbf{\textsc{Microsoft Excel}} -- Ranked \#7 in the world at the 2008 Microsoft Office
-Worldwide Competition in Hawaii of 56,000 initial entrants
-(www.betheworldchamp.com), Ireland National Champion (of 436 entrants).
-
-% \textsc{COMSOL Multiphysics} – Beginner proficiency in modeling contaminant
-% transport in academic coursework.\\[5pt] 
+% \textbf{\textsc{Fehm}} -- Expert proficiency in creating multiphase fluid
+% flow simulations with mass transport. Created test suites comparing gas
+% tracer transport within a fracture with matrix diffusion to an analytical
+% solution governed by a modified Richard's equation for unsaturated flow (with
+% immobile liquid phase) in order to test when multiphase flow significantly
+% affects gas tracer transport.
+% \href{https://github.com/lanl/FEHM}{github.com/lanl/FEHM}. Maintainer of
+% Mars-specific release (\textsc{FEHM-Mars};
+% \href{https://doi.org/10.5281/zenodo.10455952}{https://doi.org/10.5281/zenodo.10455952}).
 % 
-% \textbf{\textsc{Petromod}} -- Intermediate proficiency in creating basin evolution,
-% subsidence rate, and heat flow models of petroleum-bearing
-% locales.
+% \textbf{\textsc{Pflotran}} -- Intermediate proficiency in creating multiphase
+% fluid flow simulations with mass transport. Created test suites in similar
+% capacity to work done with FEHM. Also used in conjunction with FEHM to validate
+% the capabilities of DFNs to simulate
+% flow \& transport in fractured media under transient conditions.
+% \href{https://www.pflotran.org}{www.pflotran.org} 
 % 
-% \textbf{\textsc{ArcGIS}} -- Intermediate proficiency in using digital elevation models (DEM)
-% to delineate watersheds and create estimates of stream discharge in mountainous
-% terrain.
+% \textbf{\textsc{Hoss}} -- Intermediate proficiency in developing high
+% strain-rate multiphysics simulations using the Hybrid Optimization Software
+% Suite
+% (\href{https://www.lanl.gov/engage/organizations/cels/ees-division/scientific-software/hoss}{https://www.lanl.gov/engage/organizations/cels/ees-division/scientific-software/hoss}
+    % to investigate hypervelocity comet impacts on Earth and Titan. 
+    % % Augmented capability of the HOSS code by implementing the analytical
+    % % equation of state (ANEOS) formulation to account for rapid phase changes
+    % % under shocked conditions and a greater range of pressure and temperature
+    % % conditions.  These code modifications will improve the Lab's capability to
+    % % model underground nuclear and chemical explosions taking place under a
+    % % wider range of conditions.  
+% 
+% \textbf{\textsc{LaGriT}} -- Intermediate proficiency in generating numerical
+% finite-element meshes for a variety of geological applications, including
+% porous flow and transport modeling and DFNs. Proficient at generating meshes
+% using the 3 interfaces: command line, batch driven via control file, and
+% PyLaGriT Python command/batch interface. Developed Python/\textsc{LaGriT}
+% workflow for translating explosive rock damage models to continuum
+% permeability-damage fields in geologic frameworks. Have also worked on
+% capability development by using novel approaches to combine continuum 3D grids
+% with 2D DFN planes into unified meshes for use in transient flow and transport
+% models.
+% \href{https://lagrit.lanl.gov/index.shtml}{lagrit.lanl.gov/index.shtml}
+% 
+% \textbf{\textsc{dfnWorks}} -- Intermediate proficiency in generating 3D
+% DFNs for simulating flow and transport, including
+% generating continuum representations of fractured porous media with octree
+% refinement using an upscaled discrete fracture matrix model (UDFM) workflow.
+% \href{https://dfnworks.lanl.gov}{dfnworks.lanl.gov}
+% 
+% \textbf{\textsc{Git}} -- Advanced proficiency in source code management/version control
+% in application development and collaborating with colleagues on coding and software
+% projects. Have experience maintaining Git repositories as a lead developer as
+% well as in a supporting collaborator role.
+% 
+% \textbf{\textsc{ParaView}} -- Advanced proficiency in interactive scientific
+% data visualization and exploration by generating static figures and
+% animations/videos. \href{https://www.paraview.org/}{www.paraview.org} 
+% 
+% \textbf{\textsc{GDB (GNU Debugger)}} -- Intermediate proficiency with command
+% line debugging tool for augmenting current and legacy flow and transport codes
+% written in Fortran and C++.
+% 
+% \textbf{\textsc{Modflow}} -- Advanced proficiency in developing 3D transient
+% and steady-state FDM models to solve a variety of hydrogeologic problems, 
+% including fluid-fault interactions as related to induced seismicity in thesis
+% work, and basin-scale backwards modeling of groundwater solute transport as
+% related to the Kirtland Air Force Base spill in Albuquerque, NM.
+% 
+% \textbf{\textsc{OpenFOAM}} -- Intermediate proficiency in developing
+% computational fluid dynamics (CFD) simulations of single and multiphase flow
+% and transport simulations in laminar and turbulent regimes.
+% 
+% \textbf{\textsc{SPOTL: Some Programs for Ocean-Tide Loading}} -- Intermediate
+% proficiency in computing load tides and strains produced on the solid earth by
+% both ocean tides and solid-earth body tides.
+% % \url{https://igppweb.ucsd.edu/~agnew/Spotl/spotlmain.html}
+% \href{https://igppweb.ucsd.edu/~agnew/Spotl/spotlmain.html}{https://igppweb.ucsd.edu/\(\sim \)agnew/Spotl/spotlmain.html}
+% 
+% \textbf{\textsc{Sphinx}} -- Advanced proficiency in generating and maintaining
+% professional documentation of software projects as HTML and \LaTeX \ output
+% from reStructuredText sources. Have supported documentation needs of various
+% collaborative code projects %(e.g., Amanzi-ATS, NROMM, SlugTide-octave). 
+% (e.g., \href{https://github.com/amanzi/amanzi}{Amanzi-ATS},
+% \href{https://gitlab.lanl.gov/jportiz/nromm_user_guide}{NROMM}, and
+% \href{https://github.com/johnportiz14/SlugTide-octave}{SlugTide-octave}).
+% 
+% \textbf{\textsc{Adobe Illustrator}} -- Advanced proficiency in creating and editing
+% publication-ready figures and illustrative schematic diagrams and animations for use in peer-reviewed journal articles and conference presentations.
+% 
+% \textbf{\textsc{Microsoft Excel}} -- Ranked \#7 in the world at the 2008 Microsoft Office
+% Worldwide Competition in Hawaii of 56,000 initial entrants
+% (www.betheworldchamp.com), Ireland National Champion (of 436 entrants).
+% 
+% % \textsc{COMSOL Multiphysics} – Beginner proficiency in modeling contaminant
+% % transport in academic coursework.\\[5pt] 
+% % 
+% % \textbf{\textsc{Petromod}} -- Intermediate proficiency in creating basin evolution,
+% % subsidence rate, and heat flow models of petroleum-bearing
+% % locales.
+% % 
+% % \textbf{\textsc{ArcGIS}} -- Intermediate proficiency in using digital elevation models (DEM)
+% % to delineate watersheds and create estimates of stream discharge in mountainous
+% % terrain.
 
 
 % \subsection*{Other}
