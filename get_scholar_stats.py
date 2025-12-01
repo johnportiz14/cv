@@ -136,12 +136,35 @@ def write_tex(output_filename, author, citations, article_stats, date):
             rule = re.compile('[^a-zA-Z]')
             pubkey = rule.sub('', pub)[:20]
             titlekey = rule.sub('', article['title'].replace(' ', ''))[:20]
-            #  article_key = f"{pubkey}OOOO{titlekey}"
-            article_key = f"{pubkey}OOOO{titlekey}"
-            if article_key in commands_used:
-                #  print("article_key already in commands used! modifying...")
-                article_key = f"{pubkey}OOOO{titlekey}O"
+
+            #------------------------------
+            # Deal with duplicates (first n characters are the same...) 
+            def letter_suffix(n):
+                """Convert 0 → '', 1 → 'A', 2 → 'B', ... 26 → 'Z', 27 → 'AA', ..."""
+                if n == 0:
+                    return ""
+                s = ""
+                while n > 0:
+                    n -= 1
+                    s = chr(ord('A') + (n % 26)) + s
+                    n //= 26
+                return s
+
+            # Base key (letters only)
+            base_key = f"{pubkey}OOOO{titlekey}"
+            base_key = re.sub(r'[^A-Za-z]', '', base_key)
+
+            # Try suffixes: '', 'A', 'B', ..., 'Z', 'AA', ...
+            suffix_index = 0
+            article_key = base_key + letter_suffix(suffix_index)
+
+            while article_key in commands_used:
+                suffix_index += 1
+                article_key = base_key + letter_suffix(suffix_index)
+
             commands_used.append(article_key)
+            #------------------------------
+
             f.write(f'%%% ARTICLE #[{counter}]: ({yyyy}) {pubkey}_{titlekey}\n')
             display_text = f'(Cited by: {num_citations}).' if num_citations > 0 else ''
             write_generic_command(f, article_key, display_text)
